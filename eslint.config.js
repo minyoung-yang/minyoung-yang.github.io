@@ -1,12 +1,12 @@
 import js from "@eslint/js";
 import reactHooks from "eslint-plugin-react-hooks";
-import reactRefresh from "eslint-plugin-react-refresh";
 import { defineConfig, globalIgnores } from "eslint/config";
 import typescriptParser from "@typescript-eslint/parser";
 import typescriptPlugin from "@typescript-eslint/eslint-plugin";
 import unusedImports from "eslint-plugin-unused-imports";
 import prettier from "eslint-plugin-prettier";
 import prettierRecommended from "eslint-plugin-prettier/recommended";
+import globals from "globals";
 
 export default defineConfig([
   globalIgnores(["dist", "node_modules", "**/*.cts"]),
@@ -28,19 +28,13 @@ export default defineConfig([
       },
       globals: {
         React: "readonly",
-        document: "readonly",
-        window: "readonly",
-        console: "readonly",
-        process: "readonly",
-        __dirname: "readonly",
-        globalThis: "readonly",
+        ...globals.browser,
       },
     },
     files: ["**/*.{js,jsx,ts,tsx}"],
     extends: [
       js.configs.recommended,
       reactHooks.configs["recommended-latest"],
-      reactRefresh.configs.vite,
       prettierRecommended,
     ],
     rules: {
