@@ -5,7 +5,7 @@ interface LayoutProps {
   children: ReactNode;
 }
 
-const Layout = ({ children }: LayoutProps) => {
+export function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header />
@@ -14,6 +14,4 @@ const Layout = ({ children }: LayoutProps) => {
       </main>
     </div>
   );
-};
-
-export default Layout;
+}

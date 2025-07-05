@@ -1,9 +1,14 @@
 import { useParams, Link } from "@tanstack/react-router";
-import Layout from "../components/layout";
-import { getPostBySlug, getCategoryDisplayName } from "../data/utils";
+import { Layout } from "../components/layout";
+import {
+  getPostBySlug,
+  getCategoryDisplayName,
+  getCategoryBySubCategory,
+} from "../data/utils";
 import { ArrowLeft, Clock, User, Calendar, Tag } from "lucide-react";
 import { useEffect, useState } from "react";
 import { blogPosts } from "@/data/posts";
+import { Helmet } from "react-helmet-async";
 
 const PostDetail = () => {
   const { slug } = useParams({ from: "/post/$slug" });
@@ -37,13 +42,22 @@ const PostDetail = () => {
 
   // Related posts (same category, excluding current post)
   const relatedPosts = blogPosts
-    .filter((p) => p.categoryId === post.categoryId && p.id !== post.id)
+    .filter((p) => p.subCategoryId === post.subCategoryId && p.id !== post.id)
     .slice(0, 3);
 
   const categoryDisplay = getCategoryDisplayName(post);
 
   return (
     <Layout>
+      <Helmet>
+        <title>
+          {post.title} | {post.author}
+        </title>
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.summary} />
+        <meta property="og:image" content={post.imageUrl} />
+        <meta property="og:type" content="article" />
+      </Helmet>
       <article className="max-w-4xl mx-auto">
         {/* Back Button */}
         <Link
@@ -58,13 +72,8 @@ const PostDetail = () => {
           <div className="mb-4">
             <span
               className={`inline-block px-3 py-1 text-sm font-medium text-white rounded-full ${
-                post.categoryId === "개발"
-                  ? "bg-blue-500"
-                  : post.categoryId === "디자인"
-                    ? "bg-purple-500"
-                    : post.categoryId === "라이프스타일"
-                      ? "bg-green-500"
-                      : "bg-orange-500"
+                getCategoryBySubCategory(post.subCategoryId)?.color ||
+                "bg-gray-500"
               }`}
             >
               {categoryDisplay}
@@ -121,7 +130,8 @@ const PostDetail = () => {
               {relatedPosts.map((relatedPost) => (
                 <Link
                   key={relatedPost.id}
-                  to={`/post/${relatedPost.slug}`}
+                  to="/post/$slug"
+                  params={{ slug: relatedPost.slug }}
                   className="group"
                 >
                   <div className="aspect-video overflow-hidden rounded-lg mb-3">

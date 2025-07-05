@@ -5,7 +5,7 @@ import timetableImg from "./images/timetable.webp";
 import { ImageInEntry } from "@/components/entry-detail/image-in-entry";
 import { EntryContent } from "@/components/entry-detail/entry-content";
 
-import { OneRowTable } from "@/components/entry-detail/one-row-table";
+import { SmallTable } from "@/components/entry-detail/small-table";
 import { OgLink } from "@/components/entry-detail/og-anchor";
 
 const images = [mapImg, timetableImg, planImg];
@@ -56,9 +56,11 @@ export const post1: BlogPost = {
             일반인의 등산을 허용하는 후지산의 일정도 고려하였다. 그렇게 8월
             11일에 출국하기로 했다.
           </p>
-          <OneRowTable
+          <SmallTable
             headers={["8월 11일", "8월 12일", "8월 13일"]}
-            cells={["출국 및 등산 준비", "등산 / 하산 및 휴식", "쇼핑 및 입국"]}
+            cells={[
+              ["출국 및 등산 준비", "등산 / 하산 및 휴식", "쇼핑 및 입국"],
+            ]}
           />
           <p>
             지난 주말, 출국을 일주일 앞두고, 집에 내려가서 아버지와 준비물
@@ -92,9 +94,9 @@ export const post1: BlogPost = {
             마지막 버스가 오후 7시 출발이니, 그에 맞게 적절히 휴식을 취하면서
             무리하지 않게 이동할 계획이다.
           </p>
-          <OneRowTable
+          <SmallTable
             headers={["등산", "정상 / 휴식", "하산", "호에이잔 / 휴식", "하산"]}
-            cells={["260분", "30분", "115분", "20분", "65분"]}
+            cells={[["260분", "30분", "115분", "20분", "65분"]]}
           />
           <ImageInEntry
             src={images[2]}

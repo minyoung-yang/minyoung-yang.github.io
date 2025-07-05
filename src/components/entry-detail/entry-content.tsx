@@ -26,13 +26,27 @@ function enhanceChildren(
   if (isValidElement(node)) {
     if ((node.type as any).name === "ImageInEntry") {
       const { src, alt, caption } = node.props as ImageInEntryProps;
-      foundImages.push({
-        src,
-        alt,
-        caption,
+      const srcArr = Array.isArray(src) ? src : [src];
+      const altArr = Array.isArray(alt) ? alt : [alt];
+
+      // 여러 이미지를 foundImages에 모두 추가
+      srcArr.forEach((imgSrc, idx) => {
+        foundImages.push({
+          src: imgSrc,
+          alt: altArr[idx] || "",
+          caption,
+        });
       });
+
       return cloneElement(node as React.ReactElement<ImageInEntryProps>, {
-        onImageClick: () => onImageClick({ src, alt, caption }),
+        onImageClick: (clickedIdx?: number) => {
+          const index = typeof clickedIdx === "number" ? clickedIdx : 0;
+          onImageClick({
+            src: srcArr[index],
+            alt: altArr[index] || "",
+            caption,
+          });
+        },
       });
     }
     // children prop이 있으면 재귀적으로 처리

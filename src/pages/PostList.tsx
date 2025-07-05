@@ -1,4 +1,4 @@
-import Layout from "../components/layout";
+import { Layout } from "../components/layout";
 import { blogPosts } from "@/data/posts";
 import { FilteredPosts } from "@/components/filtered-posts";
 

@@ -1,9 +1,20 @@
-import Layout from "../components/layout";
+import { Helmet } from "react-helmet-async";
+import { Layout } from "../components/layout";
 import { BookOpen, User, Target, Heart } from "lucide-react";
 
 const About = () => {
   return (
     <Layout>
+      <Helmet>
+        <title>About - Gabriel's Blog</title>
+        <meta property="og:title" content="About - Gabriel's Blog" />
+        <meta
+          property="og:description"
+          content="Memoirs in the Making. 기억을 기록하는 블로그입니다."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/og.webp" />
+      </Helmet>
       <div className="max-w-4xl mx-auto space-y-12">
         {/* Hero Section */}
         <section className="text-center py-12">

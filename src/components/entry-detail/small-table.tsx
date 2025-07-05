@@ -7,14 +7,11 @@ import {
   TableRow,
 } from "../ui/table";
 
-type OneRowTableProps = {
+type SmallTableProps = {
   headers: string[];
-  cells: string[];
+  cells: string[][];
 };
-export function OneRowTable({ headers, cells }: OneRowTableProps) {
-  if (headers.length !== cells.length) {
-    console.warn("headers와 cells의 길이가 다릅니다.");
-  }
+export function SmallTable({ headers, cells }: SmallTableProps) {
   return (
     <div className="overflow-x-auto">
       <Table className="border-t border-b text-center">
@@ -26,11 +23,13 @@ export function OneRowTable({ headers, cells }: OneRowTableProps) {
           </TableRow>
         </TableHeader>
         <TableBody>
-          <TableRow>
-            {cells.map((cell, index) => (
-              <TableCell key={index}>{cell}</TableCell>
-            ))}
-          </TableRow>
+          {cells.map((row, rowIndex) => (
+            <TableRow key={rowIndex}>
+              {row.map((cell, cellIndex) => (
+                <TableCell key={cellIndex}>{cell}</TableCell>
+              ))}
+            </TableRow>
+          ))}
         </TableBody>
       </Table>
     </div>
