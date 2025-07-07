@@ -11,7 +11,7 @@ export function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <CableCar className="h-8 w-8 text-blue-600" />
+            <CableCar className="h-8 w-8 text-green-800" />
             <span className="text-xl font-bold text-gray-900">
               Gabriel Yang
             </span>
@@ -70,8 +70,8 @@ function HeaderMenuLink({ to, children }: HeaderMenuLinkProps) {
       to={to}
       className={`text-sm font-medium transition-colors duration-200 ${
         isActive(to)
-          ? "text-blue-600 border-b-2 border-blue-600"
-          : "text-gray-700 hover:text-blue-600"
+          ? "text-green-800 border-b-2 border-green-800"
+          : "text-gray-700 hover:text-green-800"
       }`}
     >
       {children}
@@ -100,8 +100,8 @@ function MobileHeaderMenuLink({
       to={to}
       className={`block px-3 py-2 text-base font-medium ${
         isActive(to)
-          ? "text-blue-600 bg-blue-50"
-          : "text-gray-700 hover:text-blue-600 hover:bg-gray-50"
+          ? "text-green-800 bg-blue-50"
+          : "text-gray-700 hover:text-green-800 hover:bg-gray-50"
       }`}
       onClick={onClick}
     >

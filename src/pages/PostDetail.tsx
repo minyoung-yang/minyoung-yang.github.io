@@ -9,6 +9,7 @@ import { ArrowLeft, Clock, User, Calendar, Tag } from "lucide-react";
 import { useEffect, useState } from "react";
 import { blogPosts } from "@/data/posts";
 import { Helmet } from "react-helmet-async";
+import { UtterancesComments } from "@/components/entry-detail/comment";
 
 const PostDetail = () => {
   const { slug } = useParams({ from: "/post/$slug" });
@@ -30,7 +31,7 @@ const PostDetail = () => {
           </h1>
           <Link
             to="/"
-            className="inline-flex items-center text-blue-600 hover:text-blue-800"
+            className="inline-flex items-center text-green-800 hover:text-blue-800"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             홈으로 돌아가기
@@ -62,7 +63,7 @@ const PostDetail = () => {
         {/* Back Button */}
         <Link
           to="/posts"
-          className="inline-flex items-center text-blue-600 hover:text-blue-800 mb-8"
+          className="inline-flex items-center text-green-800 hover:text-blue-800 mb-8"
         >
           <ArrowLeft className="mr-2 h-4 w-4" />글 목록으로 돌아가기
         </Link>
@@ -122,6 +123,8 @@ const PostDetail = () => {
           ))}
         </div>
 
+        <UtterancesComments slug={slug} />
+
         {/* Related Posts */}
         {relatedPosts.length > 0 && (
           <section className="border-t pt-12">
@@ -141,7 +144,7 @@ const PostDetail = () => {
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>
-                  <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">
+                  <h3 className="font-semibold text-gray-900 group-hover:text-green-800 transition-colors duration-200">
                     {relatedPost.title}
                   </h3>
                   <p className="text-sm text-gray-600 mt-1">

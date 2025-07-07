@@ -38,7 +38,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
         </div>
 
         <Link to="/post/$slug" params={{ slug: post.slug }}>
-          <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-blue-600 transition-colors duration-200">
+          <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-green-800 transition-colors duration-200">
             {post.title}
           </h3>
         </Link>

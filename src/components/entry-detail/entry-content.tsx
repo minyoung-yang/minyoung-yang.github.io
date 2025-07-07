@@ -1,6 +1,6 @@
 import React, { cloneElement, isValidElement, useMemo } from "react";
 import { useState } from "react";
-import ImageViewer from "./image-viewer";
+import { ImageViewer } from "./image-viewer";
 import { ImageInEntryProps } from "./image-in-entry";
 import { Image } from "@/types/blog";
 

@@ -35,7 +35,7 @@ export function OgLink({
           />
         </div>
         <div className="flex-1 p-4 flex flex-col justify-center">
-          <div className="font-semibold text-gray-900 text-base mb-1 line-clamp-2">
+          <div className="font-semibold text-gray-900 text-lg mb-1 line-clamp-2">
             {ogTitle}
           </div>
           {ogDescription && (

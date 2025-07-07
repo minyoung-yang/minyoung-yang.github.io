@@ -6,7 +6,6 @@ export type ImageInEntryProps = {
   className?: string;
   imageClassName?: string;
   captionClassName?: string;
-  width?: number;
   height?: number;
 };
 
@@ -17,7 +16,6 @@ export function ImageInEntry({
   className = "",
   imageClassName = "",
   captionClassName = "",
-  width,
   height,
   onImageClick,
 }: ImageInEntryProps) {
@@ -25,20 +23,20 @@ export function ImageInEntry({
   const altArr = Array.isArray(alt) ? alt : [alt];
   return (
     <figure className={`flex flex-col space-y-2 ${className}`}>
-      <div className={`flex gap-4 w-full`}>
+      <div className={`flex gap-4 w-full justify-center`}>
         {srcArr.map((imgSrc, idx) => (
           <div
             key={imgSrc + idx}
-            className="flex-1 overflow-hidden rounded-lg shadow-md flex"
-            style={{ minWidth: 0 }}
+            className="overflow-hidden flex rounded-lg"
+            style={{
+              height: height ?? `${height}px`,
+            }}
           >
             <img
               src={imgSrc}
               alt={altArr[idx] || ""}
-              width={width}
               height={height}
-              className={`w-full object-cover transition-transform duration-300 hover:scale-105 ${imageClassName} cursor-pointer`}
-              style={{ objectFit: "cover" }}
+              className={`object-cover transition-transform duration-300 hover:scale-105 ${imageClassName} cursor-pointer`}
               onClick={onImageClick ? () => onImageClick() : undefined}
             />
           </div>

@@ -79,7 +79,7 @@ const CategoryFilter = ({
                     className={`px-3 py-1 rounded-full text-xs font-medium transition-colors duration-200 ${
                       selectedCategory === category.id &&
                       selectedSubCategory === subCategory.id
-                        ? "bg-blue-600 text-white"
+                        ? "bg-green-800 text-white"
                         : "bg-blue-50 text-blue-700 hover:bg-blue-100"
                     }`}
                   >

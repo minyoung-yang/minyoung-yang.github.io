@@ -17,13 +17,13 @@ type ImageViewerProps = {
   onIndexChange: (_index: number) => void;
 };
 
-const ImageViewer: React.FC<ImageViewerProps> = ({
+export function ImageViewer({
   isOpen,
   onClose,
   images,
   currentIndex,
   onIndexChange,
-}) => {
+}: ImageViewerProps) {
   const [selectedIndex, setSelectedIndex] = useState(currentIndex);
 
   useEffect(() => {
@@ -69,23 +69,8 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
                 />
 
                 {/* Navigation Arrows */}
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 border-white/30 text-white"
-                  onClick={handlePrevious}
-                >
-                  <ArrowLeft className="h-6 w-6" />
-                </Button>
-
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 border-white/30 text-white"
-                  onClick={handleNext}
-                >
-                  <ArrowRight className="h-6 w-6" />
-                </Button>
+                <NavigationButton direction="left" onClick={handlePrevious} />
+                <NavigationButton direction="right" onClick={handleNext} />
               </div>
             )}
           </div>
@@ -109,7 +94,7 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
                 <button
                   key={index}
                   onClick={() => handleThumbnailClick(index)}
-                  className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-all ${
+                  className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-all cursor-pointer ${
                     index === selectedIndex
                       ? "border-blue-400 scale-110"
                       : "border-white/30 hover:border-white/60"
@@ -128,6 +113,29 @@ const ImageViewer: React.FC<ImageViewerProps> = ({
       </DialogContent>
     </Dialog>
   );
-};
+}
 
-export default ImageViewer;
+function NavigationButton({
+  direction,
+  onClick,
+}: {
+  direction: "left" | "right";
+  onClick: () => void;
+}) {
+  return (
+    <Button
+      variant="outline"
+      size="icon"
+      className={`absolute top-1/2 -translate-y-1/2 ${
+        direction === "left" ? "left-4" : "right-4"
+      } bg-black/60 hover:bg-black/80 border-white/50 text-white shadow-lg backdrop-blur-sm cursor-pointer`}
+      onClick={onClick}
+    >
+      {direction === "left" ? (
+        <ArrowLeft className="h-6 w-6" />
+      ) : (
+        <ArrowRight className="h-6 w-6" />
+      )}
+    </Button>
+  );
+}

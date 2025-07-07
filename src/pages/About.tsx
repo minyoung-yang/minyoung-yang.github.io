@@ -18,7 +18,7 @@ const About = () => {
       <div className="max-w-4xl mx-auto space-y-12">
         {/* Hero Section */}
         <section className="text-center py-12">
-          <div className="w-24 h-24 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
+          <div className="w-24 h-24 bg-gradient-to-r from-green-800 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
             <BookOpen className="h-12 w-12 text-white" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
@@ -32,7 +32,7 @@ const About = () => {
         {/* Mission Section */}
         <section className="bg-white rounded-2xl p-8 shadow-sm">
           <div className="flex items-center gap-3 mb-6">
-            <Target className="h-6 w-6 text-blue-600" />
+            <Target className="h-6 w-6 text-green-800" />
             <h2 className="text-2xl font-bold text-gray-900">우리의 목표</h2>
           </div>
           <p className="text-gray-700 text-lg leading-relaxed">
@@ -51,7 +51,7 @@ const About = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-white rounded-xl shadow-sm">
               <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <BookOpen className="h-8 w-8 text-blue-600" />
+                <BookOpen className="h-8 w-8 text-green-800" />
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 실무 중심 콘텐츠

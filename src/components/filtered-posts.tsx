@@ -89,7 +89,7 @@ export function FilteredPosts({ canSearch, maxPosts }: FilteredPostsProps) {
         <div className="text-center mt-8">
           <Link
             to="/posts"
-            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
+            className="inline-flex items-center px-6 py-3 bg-green-800 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200"
           >
             더 많은 글 보기
             <ArrowRight className="ml-2 h-5 w-5" />
