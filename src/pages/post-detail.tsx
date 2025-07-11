@@ -13,14 +13,15 @@ import { UtterancesComments } from "@/components/entry-detail/comment";
 import { PostContent } from "@/types/blog";
 import { pad } from "@/utils/string";
 
-async function loadPostById(id: string): Promise<PostContent> {
-  try {
-    const postModule = await import(`../data/posts/${id}/content`);
-    return postModule["content"] as PostContent;
-  } catch (error) {
-    console.error(`Failed to load post with id: ${id}`, error);
-    return null;
-  }
+// @ts-expect-error Vite import.meta.glob
+const contentModules = import.meta.glob("../data/posts/*/content.tsx");
+
+async function loadPostById(id: string): Promise<PostContent | null> {
+  const key = `../data/posts/${id}/content.tsx`;
+  const importer = contentModules[key];
+  if (!importer) return null;
+  const postModule = await importer();
+  return (postModule as { content: PostContent })["content"];
 }
 
 const PostDetail = () => {
