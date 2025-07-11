@@ -4,7 +4,10 @@
     <meta charset="utf-8" />
     <title>Redirecting...</title>
     <script>
-      var redirectTo = '/' + location.search + location.hash;
+      var pathname = location.pathname;
+      var search = location.search || '';
+      var hash = location.hash || '';
+      var redirectTo = '/' + '#'+ pathname.replace(/^\//, '') + search + hash;
       location.replace(redirectTo);
     </script>
   </head>
