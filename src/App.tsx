@@ -1,13 +1,20 @@
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { createRouter, RouterProvider } from "@tanstack/react-router";
+import {
+  createHashHistory,
+  createRouter,
+  RouterProvider,
+} from "@tanstack/react-router";
 import { HelmetProvider } from "react-helmet-async";
 import { routeTree } from "./routeTree.gen";
+
+const hashHistory = createHashHistory();
 
 const router = createRouter({
   routeTree,
   scrollRestoration: true,
+  history: hashHistory,
 });
 
 declare module "@tanstack/react-router" {
