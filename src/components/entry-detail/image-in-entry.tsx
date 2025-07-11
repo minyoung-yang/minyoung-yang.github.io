@@ -1,7 +1,7 @@
 export type ImageInEntryProps = {
   src: string | string[];
   alt: string | string[];
-  onImageClick?: () => void;
+  onImageClick?: (_imgSrc: string) => void;
   caption: string;
   className?: string;
   imageClassName?: string;
@@ -37,7 +37,10 @@ export function ImageInEntry({
               alt={altArr[idx] || ""}
               height={height}
               className={`object-cover transition-transform duration-300 hover:scale-105 ${imageClassName} cursor-pointer`}
-              onClick={onImageClick ? () => onImageClick() : undefined}
+              onClick={() => {
+                console.log("Image clicked:", imgSrc);
+                onImageClick?.(imgSrc);
+              }}
             />
           </div>
         ))}

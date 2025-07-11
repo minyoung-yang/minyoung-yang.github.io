@@ -1,4 +1,4 @@
-import { NotFound } from "@/pages/NotFound";
+import { NotFound } from "@/pages/not-found";
 import { createRootRoute, Outlet } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 

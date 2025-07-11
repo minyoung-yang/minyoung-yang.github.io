@@ -1,8 +1,8 @@
-import { BlogPost, Category, SubCategory } from "../types/blog";
+import { PostMeta, Category, SubCategory } from "../types/blog";
 import { categories, subCategories } from "./categories";
 import { blogPosts } from "./posts";
 
-export const getPostBySlug = (slug: string): BlogPost | undefined => {
+export const getPostBySlug = (slug: string): PostMeta | undefined => {
   return blogPosts.find((post) => post.slug === slug);
 };
 
@@ -28,18 +28,18 @@ export const getCategoryBySubCategory = (
   return undefined;
 };
 
-export const getPostsByCategory = (categoryId: string): BlogPost[] => {
+export const getPostsByCategory = (categoryId: string): PostMeta[] => {
   const subCategories = getSubCategoriesByCategory(categoryId);
   return blogPosts.filter((post) =>
     subCategories.some((subCategory) => subCategory.id === post.subCategoryId),
   );
 };
 
-export const getPostsBySubCategory = (subCategoryId: string): BlogPost[] => {
+export const getPostsBySubCategory = (subCategoryId: string): PostMeta[] => {
   return blogPosts.filter((post) => post.subCategoryId === subCategoryId);
 };
 
-export const getLatestPosts = (limit: number = 3): BlogPost[] => {
+export const getLatestPosts = (limit: number = 3): PostMeta[] => {
   return blogPosts
     .sort(
       (a, b) =>
@@ -62,7 +62,7 @@ export const getSubCategory = (
   return subCategory;
 };
 
-export const getCategoryDisplayName = (post: BlogPost): string => {
+export const getCategoryDisplayName = (post: PostMeta): string => {
   const subCategory = getSubCategory(post.subCategoryId);
   if (subCategory) {
     const category = getCategory(subCategory.parentCategoryId);

@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { BlogPost } from "../types/blog";
+import { PostMeta } from "../types/blog";
 import { Clock, User } from "lucide-react";
 import {
   getCategoryBySubCategory,
@@ -7,7 +7,7 @@ import {
 } from "../data/utils";
 
 type BlogCardProps = {
-  post: BlogPost;
+  post: PostMeta;
 };
 
 const BlogCard = ({ post }: BlogCardProps) => {

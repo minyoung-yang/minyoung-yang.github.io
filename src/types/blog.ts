@@ -1,8 +1,7 @@
-export type BlogPost = {
+export type PostMeta = {
   id: string;
   title: string;
   slug: string;
-  content: React.ReactNode;
   summary: string;
   subCategoryId: string;
   author: string;
@@ -11,6 +10,8 @@ export type BlogPost = {
   imageUrl: string;
   tags: string[];
 };
+
+export type PostContent = React.ReactNode;
 
 export type Category = {
   id: string;

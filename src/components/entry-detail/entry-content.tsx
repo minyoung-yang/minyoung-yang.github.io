@@ -10,13 +10,12 @@ type EntryContentProps = {
 
 function enhanceChildren(
   node: React.ReactNode,
-  onImageClick: (_img: Image) => void,
+  onImageClick: (_imgSrc: string) => void,
   foundImages: Image[],
 ): React.ReactNode {
   if (Array.isArray(node)) {
     return node.map((child, idx) => {
       const enhanced = enhanceChildren(child, onImageClick, foundImages);
-      // enhanced가 ReactElement라면 key를 부여
       if (isValidElement(enhanced) && enhanced.key == null) {
         return cloneElement(enhanced, { key: idx });
       }
@@ -28,8 +27,6 @@ function enhanceChildren(
       const { src, alt, caption } = node.props as ImageInEntryProps;
       const srcArr = Array.isArray(src) ? src : [src];
       const altArr = Array.isArray(alt) ? alt : [alt];
-
-      // 여러 이미지를 foundImages에 모두 추가
       srcArr.forEach((imgSrc, idx) => {
         foundImages.push({
           src: imgSrc,
@@ -39,14 +36,7 @@ function enhanceChildren(
       });
 
       return cloneElement(node as React.ReactElement<ImageInEntryProps>, {
-        onImageClick: (clickedIdx?: number) => {
-          const index = typeof clickedIdx === "number" ? clickedIdx : 0;
-          onImageClick({
-            src: srcArr[index],
-            alt: altArr[index] || "",
-            caption,
-          });
-        },
+        onImageClick,
       });
     }
     // children prop이 있으면 재귀적으로 처리
@@ -75,8 +65,8 @@ export function EntryContent({ content }: EntryContentProps) {
     const foundImages: Image[] = [];
     const enhanced = enhanceChildren(
       content,
-      (img) => {
-        const idx = foundImages.findIndex((image) => image.src === img.src);
+      (imgSrc: string) => {
+        const idx = foundImages.findIndex((image) => image.src === imgSrc);
         setCurrentImageIndex(idx);
         setIsImageViewerOpen(true);
       },

@@ -3,11 +3,10 @@ import { Layout } from "../components/layout";
 import BlogCard from "../components/blog-card";
 import { getLatestPosts } from "../data/utils";
 import { ArrowRight, TrendingUp } from "lucide-react";
-import { FilteredPosts } from "@/components/filtered-posts";
 import { Helmet } from "react-helmet-async";
 
-const Home = () => {
-  const latestPosts = getLatestPosts(3);
+export const Home = () => {
+  const latestPosts = getLatestPosts(9);
   return (
     <Layout>
       <Helmet>
@@ -22,8 +21,10 @@ const Home = () => {
       </Helmet>
       <div className="space-y-12">
         <section className="text-center py-8 bg-gradient-to-r from-green-800 to-blue-800 text-white rounded-2xl">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Gabriel Yang</h1>
-          <p className="text-xl md:text-2xl text-blue-100 mb-8">
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">
+            Gabriel Yang's Blog
+          </h1>
+          <p className="text-xl md:text-xl text-blue-100 mb-8">
             Memoirs in the Making
           </p>
           <Link
@@ -35,7 +36,6 @@ const Home = () => {
           </Link>
         </section>
 
-        {/* Latest Posts Section */}
         <section>
           <div className="flex items-center gap-3 mb-8">
             <TrendingUp className="h-6 w-6 text-green-800" />
@@ -47,17 +47,7 @@ const Home = () => {
             ))}
           </div>
         </section>
-
-        {/* Category Section */}
-        <section>
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            카테고리별 글
-          </h2>
-          <FilteredPosts canSearch={false} maxPosts={6} />
-        </section>
       </div>
     </Layout>
   );
 };
-
-export default Home;
