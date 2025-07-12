@@ -51,13 +51,21 @@ export function ImageViewer({
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-6xl w-[90vw] h-[90vh] max-h-[90vh] p-0 bg-black/95">
+      <DialogContent
+        className="max-w-6xl w-[95vw] h-[95vh] max-h-[95vh] p-0 bg-black/95 flex flex-col"
+        style={{
+          maxWidth: "100vw",
+          width: "100vw",
+          height: "100vh",
+          maxHeight: "100vh",
+          padding: 0,
+        }}
+      >
         <DialogTitle className="sr-only">이미지 뷰어</DialogTitle>
-        <div className="flex flex-col h-full max-h-[90vh]">
-          {/* Main Image Area */}
+        <div className="flex flex-col h-full max-h-[100vh]">
           <div
-            className="flex-1 flex items-center justify-center relative p-4"
-            style={{ maxHeight: "calc(90vh - 140px)" }} // 썸네일+info 높이만큼 빼기
+            className="flex-1 flex items-center justify-center relative p-2 sm:p-4"
+            style={{ maxHeight: "calc(100vh - 160px)" }}
           >
             {currentImage && (
               <div className="relative w-full h-full flex items-center justify-center">
@@ -65,20 +73,17 @@ export function ImageViewer({
                   src={currentImage.src}
                   alt={currentImage.alt}
                   className="max-w-full max-h-full object-contain rounded-lg"
-                  style={{ maxHeight: "100%" }} // 이미지가 영역을 넘지 않게
+                  style={{ maxHeight: "100%", maxWidth: "100%" }}
                 />
-
-                {/* Navigation Arrows */}
                 <NavigationButton direction="left" onClick={handlePrevious} />
                 <NavigationButton direction="right" onClick={handleNext} />
               </div>
             )}
           </div>
 
-          {/* Image Info */}
           {currentImage && (
-            <div className="px-6 py-2 bg-black/50 flex-shrink-0">
-              <p className="text-white text-center text-sm">
+            <div className="px-2 sm:px-6 py-2 bg-black/50 flex-shrink-0">
+              <p className="text-white text-center text-sm line-clamp-2">
                 {currentImage.caption}
               </p>
               <p className="text-white/70 text-center text-xs mt-1">
@@ -87,14 +92,13 @@ export function ImageViewer({
             </div>
           )}
 
-          {/* Thumbnail Strip */}
-          <div className="bg-black/70 p-4 flex-shrink-0">
+          <div className="bg-black/70 p-2 sm:p-4 flex-shrink-0">
             <div className="flex gap-2 justify-center overflow-x-auto">
               {images.map((image, index) => (
                 <button
                   key={index}
                   onClick={() => handleThumbnailClick(index)}
-                  className={`flex-shrink-0 w-16 h-16 rounded-lg overflow-hidden border-2 transition-all cursor-pointer ${
+                  className={`flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-lg overflow-hidden border-2 transition-all cursor-pointer ${
                     index === selectedIndex
                       ? "border-blue-400 scale-110"
                       : "border-white/30 hover:border-white/60"
