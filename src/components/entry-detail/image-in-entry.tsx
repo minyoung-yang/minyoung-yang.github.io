@@ -1,3 +1,4 @@
+"use client";
 export type ImageInEntryProps = {
   src: string | string[];
   alt: string | string[];
@@ -38,7 +39,6 @@ export function ImageInEntry({
               height={height}
               className={`object-cover transition-transform duration-300 hover:scale-105 ${imageClassName} cursor-pointer`}
               onClick={() => {
-                console.log("Image clicked:", imgSrc);
                 onImageClick?.(imgSrc);
               }}
             />

@@ -1,6 +1,8 @@
+"use client";
 import { menus } from "@/data/menus";
-import { Link, useLocation } from "@tanstack/react-router";
 import { CableCar, Menu, X } from "lucide-react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useCallback, useState } from "react";
 
 export function Header() {
@@ -10,7 +12,7 @@ export function Header() {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2">
             <CableCar className="h-8 w-8 text-green-800" />
             <span className="text-xl font-bold text-gray-900">
               Gabriel Yang
@@ -56,18 +58,18 @@ type HeaderMenuLinkProps = {
   children: React.ReactNode;
 };
 function HeaderMenuLink({ to, children }: HeaderMenuLinkProps) {
-  const location = useLocation();
+  const pathname = usePathname();
 
   const isActive = useCallback(
     (path: string) => {
-      return location.pathname === path;
+      return pathname === path;
     },
-    [location.pathname],
+    [pathname],
   );
 
   return (
     <Link
-      to={to}
+      href={to}
       className={`text-sm font-medium transition-colors duration-200 ${
         isActive(to)
           ? "text-green-800 border-b-2 border-green-800"
@@ -87,17 +89,17 @@ function MobileHeaderMenuLink({
   children,
   onClick,
 }: MobileHeaderMenuLinkProps) {
-  const location = useLocation();
+  const pathname = usePathname();
   const isActive = useCallback(
     (path: string) => {
-      return location.pathname === path;
+      return pathname === path;
     },
-    [location.pathname],
+    [pathname],
   );
 
   return (
     <Link
-      to={to}
+      href={to}
       className={`block px-3 py-2 text-base font-medium ${
         isActive(to)
           ? "text-green-800 bg-blue-50"

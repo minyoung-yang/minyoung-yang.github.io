@@ -1,10 +1,10 @@
-import { Link } from "@tanstack/react-router";
 import { PostMeta } from "../types/blog";
 import { Clock, User } from "lucide-react";
 import {
   getCategoryBySubCategory,
   getCategoryDisplayName,
 } from "../data/utils";
+import Link from "next/link";
 
 type BlogCardProps = {
   post: PostMeta;
@@ -15,7 +15,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
 
   return (
     <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-      <Link to="/post/$slug" params={{ slug: post.slug }}>
+      <Link href={`/post/${post.slug}`}>
         <div className="aspect-video overflow-hidden">
           <img
             src={post.imageUrl}
@@ -37,7 +37,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
           </span>
         </div>
 
-        <Link to="/post/$slug" params={{ slug: post.slug }}>
+        <Link href={`/post/${post.slug}`}>
           <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-green-800 transition-colors duration-200">
             {post.title}
           </h3>

@@ -1,6 +1,6 @@
 import { PostMeta } from "@/types/blog";
 
-export const post3: PostMeta = {
+export const postMeta: PostMeta = {
   id: "3",
   title: "1. 설레는 출국과 오사카에 첫 발자국",
   slug: "osaka-first-step",

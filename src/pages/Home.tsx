@@ -1,24 +1,13 @@
-import { Link } from "@tanstack/react-router";
 import { Layout } from "../components/layout";
 import BlogCard from "../components/blog-card";
 import { getLatestPosts } from "../data/utils";
 import { ArrowRight, TrendingUp } from "lucide-react";
-import { Helmet } from "react-helmet-async";
+import Link from "next/link";
 
-export const Home = () => {
+function Home() {
   const latestPosts = getLatestPosts(9);
   return (
     <Layout>
-      <Helmet>
-        <title>Home - Gabriel's Blog</title>
-        <meta property="og:title" content="Home - Gabriel's Blog" />
-        <meta
-          property="og:description"
-          content="Memoirs in the Making. 기억을 기록하는 블로그입니다."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="/og.webp" />
-      </Helmet>
       <div className="space-y-12">
         <section className="text-center py-8 bg-gradient-to-r from-green-800 to-blue-800 text-white rounded-2xl">
           <h1 className="text-3xl md:text-5xl font-bold mb-4">
@@ -28,7 +17,7 @@ export const Home = () => {
             Memoirs in the Making
           </p>
           <Link
-            to="/posts"
+            href="/posts"
             className="inline-flex items-center px-6 py-3 bg-white text-green-800 rounded-lg font-medium hover:bg-gray-50 transition-colors duration-200"
           >
             모든 글 보기
@@ -50,4 +39,5 @@ export const Home = () => {
       </div>
     </Layout>
   );
-};
+}
+export default Home;

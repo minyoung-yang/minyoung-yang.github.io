@@ -1,20 +1,9 @@
-import { Helmet } from "react-helmet-async";
 import { Layout } from "../components/layout";
 import { Target, CableCar, Backpack, Camera, Earth } from "lucide-react";
 
-export const About = () => {
+const About = () => {
   return (
     <Layout>
-      <Helmet>
-        <title>About - Gabriel's Blog</title>
-        <meta property="og:title" content="About - Gabriel's Blog" />
-        <meta
-          property="og:description"
-          content="Memoirs in the Making. 기억을 기록하는 블로그입니다."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="/og.webp" />
-      </Helmet>
       <div className="max-w-4xl mx-auto space-y-12">
         <section className="text-center py-12">
           <div className="w-24 h-24 bg-gradient-to-r from-green-800 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -89,3 +78,5 @@ export const About = () => {
     </Layout>
   );
 };
+
+export default About;

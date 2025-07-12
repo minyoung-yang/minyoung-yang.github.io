@@ -2,7 +2,7 @@ import { Layout } from "../components/layout";
 import { blogPosts } from "@/data/posts";
 import { FilteredPosts } from "@/components/filtered-posts";
 
-export const PostList = () => {
+function PostList() {
   return (
     <Layout>
       <div className="space-y-8">
@@ -16,4 +16,5 @@ export const PostList = () => {
       </div>
     </Layout>
   );
-};
+}
+export default PostList;

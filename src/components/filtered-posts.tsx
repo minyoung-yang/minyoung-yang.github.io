@@ -1,3 +1,4 @@
+"use client";
 import BlogCard from "./blog-card";
 import CategoryFilter from "./category-filter";
 import { ArrowRight, Link, Search } from "lucide-react";

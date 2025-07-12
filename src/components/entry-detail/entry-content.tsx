@@ -1,7 +1,8 @@
+"use client";
 import React, { cloneElement, isValidElement, useMemo } from "react";
 import { useState } from "react";
 import { ImageViewer } from "./image-viewer";
-import { ImageInEntryProps } from "./image-in-entry";
+import { ImageInEntry, ImageInEntryProps } from "./image-in-entry";
 import { Image } from "@/types/blog";
 
 type EntryContentProps = {
@@ -23,7 +24,7 @@ function enhanceChildren(
     });
   }
   if (isValidElement(node)) {
-    if ((node.type as any).name === "ImageInEntry") {
+    if ((node.type as any) === ImageInEntry) {
       const { src, alt, caption } = node.props as ImageInEntryProps;
       const srcArr = Array.isArray(src) ? src : [src];
       const altArr = Array.isArray(alt) ? alt : [alt];
