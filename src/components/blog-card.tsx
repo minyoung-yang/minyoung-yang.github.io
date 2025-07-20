@@ -16,7 +16,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
   return (
     <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <Link href={`/post/${post.slug}`}>
-        <div className="aspect-video overflow-hidden">
+        <div className="aspect-[4/3] overflow-hidden">
           <img
             src={post.imageUrl}
             alt={post.title}
@@ -38,12 +38,12 @@ const BlogCard = ({ post }: BlogCardProps) => {
         </div>
 
         <Link href={`/post/${post.slug}`}>
-          <h3 className="text-xl font-bold text-gray-900 mb-3 hover:text-green-800 transition-colors duration-200">
+          <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 hover:text-green-800 transition-colors duration-200">
             {post.title}
           </h3>
         </Link>
 
-        <p className="text-gray-600 mb-4 line-clamp-3">{post.summary}</p>
+        <p className="text-gray-600 mb-4 line-clamp-2">{post.summary}</p>
 
         <div className="flex items-center gap-4 text-sm text-gray-500">
           <div className="flex items-center gap-1">
@@ -57,7 +57,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
           <span>{new Date(post.publishDate).toLocaleDateString("ko-KR")}</span>
         </div>
 
-        <div className="flex flex-wrap gap-2 mt-4">
+        <div className="flex flex-wrap gap-2 mt-4 overflow-hidden max-h-14">
           {post.tags.map((tag) => (
             <span
               key={tag}
