@@ -26,7 +26,6 @@ export function FilteredPosts({ canSearch, maxPosts }: FilteredPostsProps) {
 
   function getFilteredPosts() {
     let posts = blogPosts;
-    // Filter by category
     if (selectedCategory !== "all") {
       if (selectedSubCategory) {
         posts = getPostsBySubCategory(selectedSubCategory);
@@ -35,7 +34,6 @@ export function FilteredPosts({ canSearch, maxPosts }: FilteredPostsProps) {
       }
     }
 
-    // Filter by search term
     if (searchTerm) {
       posts = posts.filter(
         (post) =>
@@ -51,7 +49,6 @@ export function FilteredPosts({ canSearch, maxPosts }: FilteredPostsProps) {
 
   return (
     <>
-      {/* Search Bar */}
       {canSearch && (
         <div className="relative max-w-md mx-auto">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 h-5 w-5" />
