@@ -4,7 +4,7 @@ export const postMeta: PostMeta = {
   id: "16",
   title: "4. 샌 하신토 산과 LA의 명소",
   slug: "san-jacinto-mountains-la",
-  summary: "미국 서부 여행 23차, 샌 하신토 산과 LA의 명소 탐방",
+  summary: "미국 서부 여행 3일차, 샌 하신토 산과 LA의 명소 탐방",
   subCategoryId: "4",
   author: "양가브리엘",
   publishDate: "2024-09-07 15:29:00",
