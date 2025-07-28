@@ -4,7 +4,7 @@ export const postMeta: PostMeta = {
   id: "18",
   title: "6. 샌프란시스코까지 1번국도로",
   slug: "pebble-beach-to-san-francisco",
-  summary: "미국 서부 여행 4일차, 샌프란시스코까지 1번국도로 이동",
+  summary: "미국 서부 여행 5일차, 샌프란시스코까지 1번국도로 이동",
   subCategoryId: "4",
   author: "양가브리엘",
   publishDate: "2024-09-08 23:52:00",
