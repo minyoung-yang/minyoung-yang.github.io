@@ -1,6 +1,7 @@
 import { Layout } from "../components/layout";
 import { blogPosts } from "@/data/posts";
 import { FilteredPosts } from "@/components/filtered-posts";
+import { Suspense } from "react";
 
 function PostList() {
   return (
@@ -12,7 +13,9 @@ function PostList() {
             {blogPosts.length}개의 글이 있습니다
           </p>
         </div>
-        <FilteredPosts canSearch={true} />
+        <Suspense>
+          <FilteredPosts canSearch={true} />
+        </Suspense>
       </div>
     </Layout>
   );

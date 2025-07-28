@@ -42,6 +42,7 @@ export function FilteredPosts({ canSearch, maxPosts }: FilteredPostsProps) {
       params.set(QUERY_STRINGS.SEARCH, searchTerm);
     }
     router.push(`?${params.toString()}`);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedCategory, selectedSubCategory, searchTerm]);
 
   function handleCategoryChange(categoryId: string, subCategoryId?: string) {

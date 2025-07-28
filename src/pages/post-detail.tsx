@@ -1,9 +1,6 @@
 "use client";
 import { Layout } from "../components/layout";
-import {
-  getCategoryDisplayName,
-  getCategoryBySubCategory,
-} from "../data/utils";
+import { getCategoryBySubCategory } from "../data/utils";
 import { ArrowLeft, Clock, User, Calendar, Tag } from "lucide-react";
 import { useMemo } from "react";
 import { blogPosts } from "@/data/posts";
@@ -12,12 +9,15 @@ import { PostContent, PostMeta } from "@/types/blog";
 import { pad } from "@/utils/string";
 import Link from "next/link";
 import { EntryContent } from "@/components/entry-detail/entry-content";
+import { useRouter } from "next/navigation";
+import { CategoryLabel } from "@/components/category-label";
 
 type PostDetailProps = {
   content?: PostContent;
   postMeta?: PostMeta;
 };
 const PostDetail = ({ content, postMeta }: PostDetailProps) => {
+  const router = useRouter();
   const dateString = useMemo(() => {
     if (!postMeta?.publishDate) return "";
     const date = new Date(postMeta.publishDate);
@@ -46,8 +46,6 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
     )
     .slice(0, 3);
 
-  const categoryDisplay = getCategoryDisplayName(postMeta);
-
   return (
     <Layout>
       <article className="max-w-4xl mx-auto">
@@ -60,14 +58,14 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
 
         <header className="mb-8">
           <div className="mb-4">
-            <span
-              className={`inline-block px-3 py-1 text-sm font-medium text-white rounded-full ${
-                getCategoryBySubCategory(postMeta.subCategoryId)?.color ||
-                "bg-gray-500"
-              }`}
-            >
-              {categoryDisplay}
-            </span>
+            <CategoryLabel
+              subCategoryId={postMeta.subCategoryId}
+              onClick={() => {
+                router.push(
+                  `/posts?c=${getCategoryBySubCategory(postMeta.subCategoryId)?.id}&subc=${postMeta.subCategoryId}`,
+                );
+              }}
+            />
           </div>
 
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">

@@ -62,8 +62,8 @@ export const getSubCategory = (
   return subCategory;
 };
 
-export const getCategoryDisplayName = (post: PostMeta): string => {
-  const subCategory = getSubCategory(post.subCategoryId);
+export const getCategoryDisplayName = (subCategoryId: string): string => {
+  const subCategory = getSubCategory(subCategoryId);
   if (subCategory) {
     const category = getCategory(subCategory.parentCategoryId);
     if (category) {

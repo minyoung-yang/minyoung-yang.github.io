@@ -1,18 +1,13 @@
 import { PostMeta } from "../types/blog";
 import { Clock, User } from "lucide-react";
-import {
-  getCategoryBySubCategory,
-  getCategoryDisplayName,
-} from "../data/utils";
 import Link from "next/link";
+import { CategoryLabel } from "./category-label";
 
 type BlogCardProps = {
   post: PostMeta;
 };
 
 const BlogCard = ({ post }: BlogCardProps) => {
-  const categoryDisplay = getCategoryDisplayName(post);
-
   return (
     <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
       <Link href={`/post/${post.slug}`}>
@@ -24,27 +19,16 @@ const BlogCard = ({ post }: BlogCardProps) => {
           />
         </div>
       </Link>
-
       <div className="p-6">
         <div className="flex items-center gap-2 mb-3">
-          <span
-            className={`px-3 py-1 text-xs font-medium text-white rounded-full ${
-              getCategoryBySubCategory(post.subCategoryId)?.color ||
-              "bg-gray-500"
-            }`}
-          >
-            {categoryDisplay}
-          </span>
+          <CategoryLabel subCategoryId={post.subCategoryId} />
         </div>
-
         <Link href={`/post/${post.slug}`}>
           <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 hover:text-green-800 transition-colors duration-200">
             {post.title}
           </h3>
         </Link>
-
         <p className="text-gray-600 mb-4 line-clamp-2">{post.summary}</p>
-
         <div className="flex items-center gap-4 text-sm text-gray-500">
           <div className="flex items-center gap-1">
             <User size={16} />
@@ -56,7 +40,6 @@ const BlogCard = ({ post }: BlogCardProps) => {
           </div>
           <span>{new Date(post.publishDate).toLocaleDateString("ko-KR")}</span>
         </div>
-
         <div className="flex flex-wrap gap-2 mt-4 overflow-hidden max-h-14">
           {post.tags.map((tag) => (
             <span
