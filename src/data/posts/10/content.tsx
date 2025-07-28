@@ -1,6 +1,7 @@
 "use client";
 
 import { ImageInEntry } from "@/components/entry-detail/image-in-entry";
+import { OgLink } from "@/components/entry-detail/og-anchor";
 
 export const content = (
   <>
@@ -180,5 +181,29 @@ export const content = (
       들 정도로 발이 아파왔다. 교토의 분위기로 압도당할 것으로 기대했던
       날이었지만, 내 인생 첫 스냅의 기억이 강했던 날이다.
     </p>
+    <OgLink
+      href="https://maps.app.goo.gl/SSjzjz5pjo7J8yTaA"
+      title="점심 식사 / 교토 일본 가정식"
+      description="쿄노 아지토코로 우에무라"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+    />
+    <OgLink
+      href="https://maps.app.goo.gl/wQSMzD9dWm9roBy67"
+      title="교토 카페"
+      description="The Unir Coffee Senses"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+    />
+    <OgLink
+      href="https://maps.app.goo.gl/BbV9yzH2fu5thauo8"
+      title="오사카 대표 타코야끼"
+      description="하나다코"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+    />
+    <OgLink
+      href="https://maps.app.goo.gl/BJFBcJET8mQEJyKc7"
+      title="저녁 식사 / 규카츠"
+      description="규카츠 모토무라 난바 미도스지점"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+    />
   </>
 );
