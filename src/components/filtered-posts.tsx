@@ -2,9 +2,16 @@
 import BlogCard from "./blog-card";
 import CategoryFilter from "./category-filter";
 import { ArrowRight, Link, Search } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { blogPosts } from "@/data/posts";
 import { getPostsByCategory, getPostsBySubCategory } from "@/data/utils";
+import { useRouter, useSearchParams } from "next/navigation";
+
+const QUERY_STRINGS = {
+  CATEGORY: "c",
+  SUB_CATEGORY: "subc",
+  SEARCH: "search",
+};
 
 type FilteredPostsProps = {
   canSearch: boolean;
@@ -12,12 +19,30 @@ type FilteredPostsProps = {
 };
 
 export function FilteredPosts({ canSearch, maxPosts }: FilteredPostsProps) {
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  const searchParams = useSearchParams();
+  const [selectedCategory, setSelectedCategory] = useState(
+    searchParams.get(QUERY_STRINGS.CATEGORY) || "all",
+  );
   const [selectedSubCategory, setSelectedSubCategory] = useState<
     string | undefined
-  >();
-  const [searchTerm, setSearchTerm] = useState("");
+  >(searchParams.get(QUERY_STRINGS.SUB_CATEGORY) || undefined);
+  const [searchTerm, setSearchTerm] = useState(
+    searchParams.get(QUERY_STRINGS.SEARCH) || "",
+  );
   const filteredPosts = getFilteredPosts();
+  const router = useRouter();
+
+  useEffect(() => {
+    const params = new URLSearchParams();
+    params.set(QUERY_STRINGS.CATEGORY, selectedCategory);
+    if (selectedSubCategory) {
+      params.set(QUERY_STRINGS.SUB_CATEGORY, selectedSubCategory);
+    }
+    if (searchTerm && searchTerm.trim() !== "") {
+      params.set(QUERY_STRINGS.SEARCH, searchTerm);
+    }
+    router.push(`?${params.toString()}`);
+  }, [selectedCategory, selectedSubCategory, searchTerm]);
 
   function handleCategoryChange(categoryId: string, subCategoryId?: string) {
     setSelectedCategory(categoryId);
