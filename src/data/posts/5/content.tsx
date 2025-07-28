@@ -194,9 +194,9 @@ export const content = (
     />
     <OgLink
       href="https://maps.app.goo.gl/KHbDTdC777VACgMJ6"
-      ogTitle="저녁 식사 / 우동 전문점"
-      ogDescription="마루가메제면 후지노미야점"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="저녁 식사 / 우동 전문점"
+      description="마루가메제면 후지노미야점"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

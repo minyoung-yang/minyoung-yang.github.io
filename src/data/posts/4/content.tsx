@@ -122,9 +122,9 @@ export const content = (
     </p>
     <OgLink
       href="https://maps.app.goo.gl/Vs7k4mnrhQiBvzpQ6"
-      ogTitle="숙소"
-      ogDescription="Kuretake Inn Premium Fujinomiya"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="숙소"
+      description="Kuretake Inn Premium Fujinomiya"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

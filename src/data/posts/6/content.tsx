@@ -117,9 +117,9 @@ export const content = (
     </p>
     <OgLink
       href="https://maps.app.goo.gl/1jCTZKhzuAdJQ7UTA"
-      ogTitle="점심 식사 / 소바 전문점"
-      ogDescription="蕎麦 鷹乃"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="점심 식사 / 소바 전문점"
+      description="蕎麦 鷹乃"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

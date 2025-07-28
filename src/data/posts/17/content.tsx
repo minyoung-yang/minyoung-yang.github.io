@@ -136,21 +136,21 @@ export const content = (
     </p>
     <OgLink
       href="https://maps.app.goo.gl/iKhB6ETUqYYAnGFc6"
-      ogTitle="아침 식사 / 솔방 덴마크식 전문점"
-      ogDescription="Viking Garden Restaurant"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="아침 식사 / 솔방 덴마크식 전문점"
+      description="Viking Garden Restaurant"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/hj8UiXW6dpGD5MtY8"
-      ogTitle="저녁 식사 / 카멀바이더시 튀르키예식 전문점"
-      ogDescription="Dametra Cafe"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="저녁 식사 / 카멀바이더시 튀르키예식 전문점"
+      description="Dametra Cafe"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/Ht7Bnqx2YSqyEMcTA"
-      ogTitle="카멀바이더시 숙소"
-      ogDescription="호프새스 하우스 호텔"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="카멀바이더시 숙소"
+      description="호프새스 하우스 호텔"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

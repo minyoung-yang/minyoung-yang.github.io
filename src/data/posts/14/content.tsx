@@ -167,27 +167,27 @@ export const content = (
     </p>
     <OgLink
       href="https://maps.app.goo.gl/W2WugVqNMv2YJeXB8"
-      ogTitle="점심 식사 / 애벗키니 피자 전문점"
-      ogDescription="Abbot's Pizza Company"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="점심 식사 / 애벗키니 피자 전문점"
+      description="Abbot's Pizza Company"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/3abjHkXKdV6cgsuV7"
-      ogTitle="애벗키니 아이스크림 전문점"
-      ogDescription="Salt & Straw"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="애벗키니 아이스크림 전문점"
+      description="Salt & Straw"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/4A2NnqsBVHxZXAYS6"
-      ogTitle="산타모니카 카페 (폐업)"
-      ogDescription="Bookmark Cafe"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="산타모니카 카페 (폐업)"
+      description="Bookmark Cafe"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/y2S6L96bPr5pJE788"
-      ogTitle="저녁 식사 / 햄버거"
-      ogDescription="In-N-Out Burger"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="저녁 식사 / 햄버거"
+      description="In-N-Out Burger"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

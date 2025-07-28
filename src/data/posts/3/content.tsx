@@ -214,20 +214,20 @@ export const content = (
     />
     <OgLink
       href="https://www.airport.kr/ap_ko/960/subview.do"
-      ogTitle="인천공항 발렛파킹 안내"
-      ogImage="https://www.airport.kr/Web-home/og/images/og_main.jpg"
+      title="인천공항 발렛파킹 안내"
+      image="https://www.airport.kr/Web-home/og/images/og_main.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/2PJd4M2RuQYmyWvu7"
-      ogTitle="숙소"
-      ogDescription="Villa Fontaine Grand Osaka-Umeda"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="숙소"
+      description="Villa Fontaine Grand Osaka-Umeda"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/fWzxzbJhhD3BG3MRA"
-      ogTitle="오사카 타코야끼 마켓"
-      ogDescription="OSAKAたこ焼マーケット"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="오사카 타코야끼 마켓"
+      description="OSAKAたこ焼マーケット"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

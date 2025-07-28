@@ -112,21 +112,21 @@ export const content = (
     </p>
     <OgLink
       href="https://maps.app.goo.gl/YJhjHQuRW5rwRN1B9"
-      ogTitle="점심 식사 / 산타크루즈 햄버거 전문점"
-      ogDescription="Betty Burgers"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="점심 식사 / 산타크루즈 햄버거 전문점"
+      description="Betty Burgers"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/RyhNwyFCtULVdK8v9"
-      ogTitle="저녁 식사 / 샌프란시스코 양식 전문점"
-      ogDescription="Cliff House"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="저녁 식사 / 샌프란시스코 양식 전문점"
+      description="Cliff House"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/bqBFT8deUyWhaNmp8"
-      ogTitle="샌프란시스코 숙소"
-      ogDescription="Lombard Inn"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="샌프란시스코 숙소"
+      description="Lombard Inn"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

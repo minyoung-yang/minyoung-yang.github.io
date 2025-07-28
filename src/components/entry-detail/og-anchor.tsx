@@ -2,17 +2,17 @@ import React from "react";
 
 type OgLinkProps = {
   href: string;
-  ogImage?: string;
-  ogTitle: string;
-  ogDescription?: string;
+  image?: string;
+  title: string;
+  description?: string;
   className?: string;
 };
 
 export function OgLink({
   href,
-  ogImage,
-  ogTitle,
-  ogDescription,
+  image: ogImage,
+  title: ogTitle,
+  description: ogDescription,
   className = "",
 }: OgLinkProps) {
   return (

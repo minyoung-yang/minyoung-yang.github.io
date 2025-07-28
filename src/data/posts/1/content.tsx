@@ -95,11 +95,11 @@ export const content = (
     <p>참고 자료</p>
     <OgLink
       href="https://www.fujisan-climb.jp/index.html"
-      ogTitle="후지산 등산 공식 홈페이지"
+      title="후지산 등산 공식 홈페이지"
     />
     <OgLink
       href="https://www.shizuokabus.co.jp/wp-content/uploads/2024/05/2024fujitozanbus-timeE.pdf"
-      ogTitle="2024년 후지노미야 - 5합목 버스 시간표"
+      title="2024년 후지노미야 - 5합목 버스 시간표"
     />
   </>
 );

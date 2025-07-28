@@ -184,15 +184,15 @@ export const content = (
     </p>
     <OgLink
       href="https://maps.app.goo.gl/qQkMv2imyhtjk8XY7"
-      ogTitle="카마이키 우동"
-      ogDescription="うどん専門店 釜粋"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="카마이키 우동"
+      description="うどん専門店 釜粋"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/vhw5apJHexZMjVcJ6"
-      ogTitle="Kitasushi honten"
-      ogDescription="亀多寿司 本店"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="Kitasushi honten"
+      description="亀多寿司 本店"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

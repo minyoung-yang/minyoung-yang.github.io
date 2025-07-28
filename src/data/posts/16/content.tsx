@@ -179,21 +179,21 @@ export const content = (
     </p>
     <OgLink
       href="https://maps.app.goo.gl/j4dzqVHP9YpFZBNr8"
-      ogTitle="점심 식사 / 맥도날드"
-      ogDescription="McDonald's"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="점심 식사 / 맥도날드"
+      description="McDonald's"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/ThsdiEWjEToZNenm8"
-      ogTitle="더 오리지널 파머스 마켓의 고기 전문점"
-      ogDescription="Pampas Grill Churrascaria"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="더 오리지널 파머스 마켓의 고기 전문점"
+      description="Pampas Grill Churrascaria"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/embxzhKvi7TgNehK7"
-      ogTitle="산타바바라 숙소"
-      ogDescription="샌드파이퍼 롯지 - 샌타바버라"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="산타바바라 숙소"
+      description="샌드파이퍼 롯지 - 샌타바버라"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

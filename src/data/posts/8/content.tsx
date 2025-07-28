@@ -194,15 +194,15 @@ export const content = (
     </p>
     <OgLink
       href="https://www.usj.co.jp/ticket/common/studiopass/price-calendar.html"
-      ogTitle="USJ 공식 홈페이지에서 제공하는 날짜별 가격 분류"
-      ogDescription="Studio Pass Price Calendar | Universal Studios Japan™ | USJ"
-      ogImage="https://www.usj.co.jp/img/usj_ogp.png"
+      title="USJ 공식 홈페이지에서 제공하는 날짜별 가격 분류"
+      description="Studio Pass Price Calendar | Universal Studios Japan™ | USJ"
+      image="https://www.usj.co.jp/img/usj_ogp.png"
     />
     <OgLink
       href="https://maps.app.goo.gl/ChaMbC53fZ6kYPt87"
-      ogTitle="라멘 전문점 사쿠노사쿠 (작작 라멘)"
-      ogDescription="作ノ作 千日前本店"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="라멘 전문점 사쿠노사쿠 (작작 라멘)"
+      description="作ノ作 千日前本店"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );

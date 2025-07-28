@@ -122,27 +122,27 @@ export const content = (
     </p>
     <OgLink
       href="https://maps.app.goo.gl/iv2QLbLKg6XRpnu97"
-      ogTitle="점심 식사 / 조슈아트리 국립공원 앞 피자 전문점 (폐업)"
-      ogDescription="Pie for the People"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="점심 식사 / 조슈아트리 국립공원 앞 피자 전문점 (폐업)"
+      description="Pie for the People"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/L1cE38BCUE7HNirh7"
-      ogTitle="조슈아트리 국립공원 앞 커피 전문점"
-      ogDescription="Joshua Tree Coffee Company"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="조슈아트리 국립공원 앞 커피 전문점"
+      description="Joshua Tree Coffee Company"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/8DQPn3eSyG7B56579"
-      ogTitle="저녁 식사 / 햄버거"
-      ogDescription="Five Guys"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="저녁 식사 / 햄버거"
+      description="Five Guys"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
     <OgLink
       href="https://maps.app.goo.gl/8wwrZKySCTZy3bM19"
-      ogTitle="팜스프링스 숙소"
-      ogDescription="7 스프링스 인 앤드 스위트"
-      ogImage="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
+      title="팜스프링스 숙소"
+      description="7 스프링스 인 앤드 스위트"
+      image="https://i.ytimg.com/vi/ZG4JQX4BO9A/maxresdefault.jpg"
     />
   </>
 );
