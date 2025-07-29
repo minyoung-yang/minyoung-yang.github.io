@@ -30,7 +30,7 @@ export function ImageInEntry({
             key={imgSrc + idx}
             className="overflow-hidden flex rounded-lg"
             style={{
-              height: height ?? `${height}px`,
+              height: height ? `${height}px` : "auto",
             }}
           >
             <img
