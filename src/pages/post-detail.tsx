@@ -118,7 +118,7 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
                   href={`/post/${relatedPost.slug}`}
                   className="group"
                 >
-                  <div className="aspect-video overflow-hidden rounded-lg mb-3">
+                  <div className="aspect-[4/3] overflow-hidden rounded-lg mb-3">
                     <img
                       src={relatedPost.imageUrl}
                       alt={relatedPost.title}
