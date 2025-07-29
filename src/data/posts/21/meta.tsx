@@ -3,7 +3,7 @@ import { PostMeta } from "@/types/blog";
 export const postMeta: PostMeta = {
   id: "21",
   title: "9. 꿈 같았던 미국",
-  slug: "america-review",
+  slug: "last-day-america",
   summary: "미국 서부 여행 8일차 (마지막), 쇼핑 데이",
   subCategoryId: "4",
   author: "양가브리엘",
