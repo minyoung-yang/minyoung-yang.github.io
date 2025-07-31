@@ -3,7 +3,7 @@ export type ImageInEntryProps = {
   src: string | string[];
   alt: string | string[];
   onImageClick?: (_imgSrc: string) => void;
-  caption?: string;
+  caption: string;
   className?: string;
   imageClassName?: string;
   captionClassName?: string;
@@ -45,7 +45,7 @@ export function ImageInEntry({
           </div>
         ))}
       </div>
-      {caption && caption.length > 0 && (
+      {caption.length > 0 && (
         <figcaption
           className={`text-sm text-gray-500 text-center px-2 leading-relaxed ${captionClassName}`}
         >
