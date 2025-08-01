@@ -43,6 +43,7 @@ import { postMeta as post41 } from "./posts/41/meta";
 import { postMeta as post42 } from "./posts/42/meta";
 import { postMeta as post43 } from "./posts/43/meta";
 import { postMeta as post44 } from "./posts/44/meta";
+import { postMeta as post45 } from "./posts/45/meta";
 
 export const blogPosts: PostMeta[] = [
   post1,
@@ -89,4 +90,5 @@ export const blogPosts: PostMeta[] = [
   post42,
   post43,
   post44,
+  post45,
 ].reverse();
