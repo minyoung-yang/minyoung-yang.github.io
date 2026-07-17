@@ -9,7 +9,7 @@ import prettierRecommended from "eslint-plugin-prettier/recommended";
 import globals from "globals";
 
 export default defineConfig([
-  globalIgnores(["dist", "node_modules", "**/*.cts"]),
+  globalIgnores(["dist", "node_modules", "**/*.cts", "**/*.d.ts"]),
   {
     plugins: {
       "@typescript-eslint": typescriptPlugin,
@@ -28,6 +28,7 @@ export default defineConfig([
       },
       globals: {
         React: "readonly",
+        require: "readonly",
         ...globals.browser,
       },
     },
