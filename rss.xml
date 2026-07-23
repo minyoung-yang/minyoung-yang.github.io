@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Minyoung Yang</title>
+    <link>https://minyoung-yang.github.io</link>
+    <description>Blog feed</description>
+    <language>ko</language>
+    <lastBuildDate>Thu, 23 Jul 2026 15:57:10 GMT</lastBuildDate>
+    
+    <item>
+      <title><![CDATA[2. 로키 산맥의 동쪽 관문 밴프]]></title>
+      <link>https://minyoung-yang.github.io/post/rocky-banff</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/rocky-banff</guid>
+      <pubDate>Fri, 24 Jul 2026 12:35:00 GMT</pubDate>
+      <description><![CDATA[로키 산맥에서 밴프 타운을 지나가는 길]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/srDVOjh.jpeg" type="image/jpeg" />
+      <category><![CDATA[캐나다]]></category>
+      <category><![CDATA[로키산맥]]></category>
+      <category><![CDATA[캠핑카]]></category>
+      <category><![CDATA[밴프]]></category>
+    </item>
+    <item>
+      <title><![CDATA[1. 로키 산맥 캠핑카 투어를 캘거리에서 시작하다.]]></title>
+      <link>https://minyoung-yang.github.io/post/rocky-camping-car-tour-start</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/rocky-camping-car-tour-start</guid>
+      <pubDate>Thu, 23 Jul 2026 01:30:00 GMT</pubDate>
+      <description><![CDATA[로키 산맥으로 가기 위해 캘거리로 이동]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/8RJo4yt.jpeg" type="image/jpeg" />
+      <category><![CDATA[캐나다]]></category>
+      <category><![CDATA[캘거리]]></category>
+      <category><![CDATA[로키산맥]]></category>
+      <category><![CDATA[캠핑카]]></category>
+      <category><![CDATA[밴프]]></category>
+    </item>
+    <item>
+      <title><![CDATA[6. 아사쿠사를 마지막으로]]></title>
+      <link>https://minyoung-yang.github.io/post/tokyo-asakusa</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/tokyo-asakusa</guid>
+      <pubDate>Tue, 21 Jul 2026 23:45:00 GMT</pubDate>
+      <description><![CDATA[도쿄 여행 6일차, 아사쿠사를 마지막으로 도쿄 여행을 마치며]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/pNgskqU.jpeg" type="image/jpeg" />
+      <category><![CDATA[도쿄]]></category>
+      <category><![CDATA[아사쿠사]]></category>
+    </item>
+    <item>
+      <title><![CDATA[5. 가마쿠라와 하라주쿠를 거쳐 시부야까지]]></title>
+      <link>https://minyoung-yang.github.io/post/kamakura-harajuku-shibuya</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/kamakura-harajuku-shibuya</guid>
+      <pubDate>Tue, 21 Jul 2026 00:22:00 GMT</pubDate>
+      <description><![CDATA[도쿄 여행 5일차, 가마쿠라의 사찰과 하라주쿠/시부야의 건물 숲]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/SwdPnzt.jpeg" type="image/jpeg" />
+      <category><![CDATA[도쿄]]></category>
+      <category><![CDATA[가마쿠라]]></category>
+      <category><![CDATA[하라주쿠]]></category>
+      <category><![CDATA[시부야]]></category>
+    </item>
+    <item>
+      <title><![CDATA[4. 오타쿠들의 성지 이케부쿠로와 닛포리에서의 스냅 촬영]]></title>
+      <link>https://minyoung-yang.github.io/post/tokyo-ikebukuro-nippori</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/tokyo-ikebukuro-nippori</guid>
+      <pubDate>Mon, 20 Jul 2026 00:28:00 GMT</pubDate>
+      <description><![CDATA[도쿄 여행 4일차, 오타쿠들의 성지 이케부쿠로와 닛포리에서의 스냅 촬영]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/PwFBucO.jpeg" type="image/jpeg" />
+      <category><![CDATA[도쿄]]></category>
+      <category><![CDATA[이케부쿠로]]></category>
+      <category><![CDATA[닛포리]]></category>
+      <category><![CDATA[오차노미즈]]></category>
+    </item>
+    <item>
+      <title><![CDATA[3. 하루종일 폭우에 쇼핑]]></title>
+      <link>https://minyoung-yang.github.io/post/tokyo-ginza-shopping</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/tokyo-ginza-shopping</guid>
+      <pubDate>Sun, 19 Jul 2026 23:37:00 GMT</pubDate>
+      <description><![CDATA[도쿄 여행 3일차, 도쿄 역 근방 쇼핑]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/I93uHt3.jpeg" type="image/jpeg" />
+      <category><![CDATA[도쿄]]></category>
+      <category><![CDATA[긴자]]></category>
+      <category><![CDATA[쇼핑]]></category>
+      <category><![CDATA[규카츠]]></category>
+      <category><![CDATA[라멘]]></category>
+    </item>
+    <item>
+      <title><![CDATA[2. 디즈니 씨 느낌만 보고, 쇼핑하러]]></title>
+      <link>https://minyoung-yang.github.io/post/disney-sea-shopping</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/disney-sea-shopping</guid>
+      <pubDate>Sun, 19 Jul 2026 01:36:00 GMT</pubDate>
+      <description><![CDATA[도쿄 여행 2일차, 디즈니 씨와 신주쿠 쇼핑]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/GEkDl78.jpeg" type="image/jpeg" />
+      <category><![CDATA[디즈니 씨]]></category>
+      <category><![CDATA[쇼핑]]></category>
+    </item>
+    <item>
+      <title><![CDATA[1. 5년만에 도쿄로, 아키하바라]]></title>
+      <link>https://minyoung-yang.github.io/post/tokyo-akihabara</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/tokyo-akihabara</guid>
+      <pubDate>Sat, 18 Jul 2026 22:14:00 GMT</pubDate>
+      <description><![CDATA[도쿄 여행 1일차, 인천 공항을 거쳐 아키하바라로]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/HAsX6qc.jpeg" type="image/jpeg" />
+      <category><![CDATA[인천국제공항]]></category>
+      <category><![CDATA[도쿄]]></category>
+      <category><![CDATA[아키하바라]]></category>
+      <category><![CDATA[나리타공항]]></category>
+    </item>
+    <item>
+      <title><![CDATA[9. 이탈리아의 마지막 밤을 밀라노에서]]></title>
+      <link>https://minyoung-yang.github.io/post/milan-last-night-italy</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/milan-last-night-italy</guid>
+      <pubDate>Tue, 22 Jul 2025 00:19:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 9일차, 밀라노에서의 마지막 밤]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/LjPMZZm.jpeg" type="image/jpeg" />
+      <category><![CDATA[대성당]]></category>
+      <category><![CDATA[두오모]]></category>
+      <category><![CDATA[말펜사공항]]></category>
+      <category><![CDATA[밀라노]]></category>
+      <category><![CDATA[스포르체스코성]]></category>
+      <category><![CDATA[이탈리아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[8. 꿈 같았던 돌로미티에서 나오는 길 (~밀라노)]]></title>
+      <link>https://minyoung-yang.github.io/post/dolomites-to-milan</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/dolomites-to-milan</guid>
+      <pubDate>Sun, 13 Jul 2025 00:43:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 8일차, 돌로미티에서 밀라노로 가는 일정]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/yEQJgRK.jpeg" type="image/jpeg" />
+      <category><![CDATA[돌로미티]]></category>
+      <category><![CDATA[두오모]]></category>
+      <category><![CDATA[몽클레어]]></category>
+      <category><![CDATA[밀라노]]></category>
+      <category><![CDATA[볼차노]]></category>
+      <category><![CDATA[이탈리아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[7. 마르몰라다 산을 지나 볼차노로]]></title>
+      <link>https://minyoung-yang.github.io/post/dolomites-marmolada-bolzano</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/dolomites-marmolada-bolzano</guid>
+      <pubDate>Sun, 06 Jul 2025 19:09:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 7일차, 마르몰라다 산을 지나 볼차노로 가는 일정]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/bWKwPsN.jpeg" type="image/jpeg" />
+      <category><![CDATA[marmolada]]></category>
+      <category><![CDATA[돌로미티]]></category>
+      <category><![CDATA[마르몰라다]]></category>
+      <category><![CDATA[볼차노]]></category>
+      <category><![CDATA[이탈리아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[6. 세체다 산의 안개 속에서]]></title>
+      <link>https://minyoung-yang.github.io/post/dolomites-seceda</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/dolomites-seceda</guid>
+      <pubDate>Sat, 05 Jul 2025 17:27:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 6일차, 세체다를 다녀와서 쉬어가는 오르티세이 마지막 일정]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/65Bzgia.jpeg" type="image/jpeg" />
+      <category><![CDATA[seceda]]></category>
+      <category><![CDATA[돌로미티]]></category>
+      <category><![CDATA[세체다]]></category>
+      <category><![CDATA[오르티세이]]></category>
+      <category><![CDATA[이탈리아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[2025/07/04 광교 여천, 흰뺨검둥오리와 왜가리]]></title>
+      <link>https://minyoung-yang.github.io/post/2025-07-04-gwanggyo-yeocheon-white-cheeked-stern</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/2025-07-04-gwanggyo-yeocheon-white-cheeked-stern</guid>
+      <pubDate>Fri, 04 Jul 2025 20:39:00 GMT</pubDate>
+      <description><![CDATA[2025년 7월 4일 광교 여천, 흰뺨검둥오리와 왜가리]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/xGSyFOG.jpeg" type="image/jpeg" />
+      
+    </item>
+    <item>
+      <title><![CDATA[2025/07/01 광교 여천, 뭉게뭉게 열매]]></title>
+      <link>https://minyoung-yang.github.io/post/2025-07-01-gwanggyo-yeocheon-mungge-mungge-yeolmae</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/2025-07-01-gwanggyo-yeocheon-mungge-mungge-yeolmae</guid>
+      <pubDate>Tue, 01 Jul 2025 22:41:00 GMT</pubDate>
+      <description><![CDATA[2025년 7월 1일 광교 여천, 뭉게 구름]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/va9sBSR.jpeg" type="image/jpeg" />
+      
+    </item>
+    <item>
+      <title><![CDATA[5. 오르티세이로 이동하며]]></title>
+      <link>https://minyoung-yang.github.io/post/dolomites-to-ortisei</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/dolomites-to-ortisei</guid>
+      <pubDate>Tue, 01 Jul 2025 22:40:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 5일차, 풀리처 사르트, 파소 가르데나, 사수올롱고를 지나 오르티세이로 이동]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/IxFbupc.jpeg" type="image/jpeg" />
+      <category><![CDATA[flitzer scharte]]></category>
+      <category><![CDATA[passo gardena]]></category>
+      <category><![CDATA[sassolungo]]></category>
+      <category><![CDATA[sentiero kaiserjäger]]></category>
+      <category><![CDATA[가르데나 패스]]></category>
+      <category><![CDATA[돌로미티]]></category>
+      <category><![CDATA[사수롱고]]></category>
+      <category><![CDATA[오르티세이]]></category>
+      <category><![CDATA[이탈리아]]></category>
+      <category><![CDATA[풀리처 사르트]]></category>
+    </item>
+    <item>
+      <title><![CDATA[2025/06/30 광교 여천, 물까치가 울다]]></title>
+      <link>https://minyoung-yang.github.io/post/2025-06-30-gwanggyo-yeocheon-cyanopica</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/2025-06-30-gwanggyo-yeocheon-cyanopica</guid>
+      <pubDate>Mon, 30 Jun 2025 19:42:00 GMT</pubDate>
+      <description><![CDATA[2025년 6월 30일 광교 여천에서 물까치가 엄청나게 울던 날]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/cGdJHE6.jpeg" type="image/jpeg" />
+      
+    </item>
+    <item>
+      <title><![CDATA[4. 하루에 케이블카 여덟번 타기]]></title>
+      <link>https://minyoung-yang.github.io/post/dolomites-passo-pordoi</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/dolomites-passo-pordoi</guid>
+      <pubDate>Sun, 29 Jun 2025 00:14:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 4일차, 파소 포르도이, 포르타 베스코보, 라가주오이, 그리고 친퀘 토리]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/pXtgeoU.jpeg" type="image/jpeg" />
+      <category><![CDATA[cinque torri]]></category>
+      <category><![CDATA[lagazuoi]]></category>
+      <category><![CDATA[passo pordoi]]></category>
+      <category><![CDATA[porta vescovo]]></category>
+      <category><![CDATA[돌로미티]]></category>
+      <category><![CDATA[라가주오이]]></category>
+      <category><![CDATA[이탈리아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[3. 아버지의 버킷리스트가 내 최애가 되었다.]]></title>
+      <link>https://minyoung-yang.github.io/post/dolomites-tre-cime</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/dolomites-tre-cime</guid>
+      <pubDate>Wed, 25 Jun 2025 21:09:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 3일차, 트레치메, 토파나, 팔로리아 그리고 코르티나 담페초]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/HJkRqKu.jpeg" type="image/jpeg" />
+      <category><![CDATA[돌로미티]]></category>
+      <category><![CDATA[몽클레어]]></category>
+      <category><![CDATA[이탈리아]]></category>
+      <category><![CDATA[케이블카]]></category>
+      <category><![CDATA[코르티나담페초]]></category>
+      <category><![CDATA[토파나]]></category>
+      <category><![CDATA[트레치메]]></category>
+      <category><![CDATA[팔로리아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[2. 제대로된 베니스 관광과 쇼핑, 그리고 돌로미티]]></title>
+      <link>https://minyoung-yang.github.io/post/venice-shopping-dolomites</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/venice-shopping-dolomites</guid>
+      <pubDate>Tue, 24 Jun 2025 21:47:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 2일차, 베니스 관광과 쇼핑, 그리고 돌로미티]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/n4cN2X9.jpeg" type="image/jpeg" />
+      <category><![CDATA[돌로미티]]></category>
+      <category><![CDATA[동계올림픽]]></category>
+      <category><![CDATA[디자이너아울렛]]></category>
+      <category><![CDATA[리알토다리]]></category>
+      <category><![CDATA[베니스]]></category>
+      <category><![CDATA[산마르코광장]]></category>
+      <category><![CDATA[이탈리아]]></category>
+      <category><![CDATA[코르티나담페초]]></category>
+    </item>
+    <item>
+      <title><![CDATA[1. 하루만에 로마와 베니스를 관광한 사람이 있다?]]></title>
+      <link>https://minyoung-yang.github.io/post/rome-venice-in-one-day</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/rome-venice-in-one-day</guid>
+      <pubDate>Mon, 23 Jun 2025 23:03:00 GMT</pubDate>
+      <description><![CDATA[이탈리아 여행 1일차, 로마 속성 관광과 베니스]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/jeYbsyg.jpeg" type="image/jpeg" />
+      <category><![CDATA[나보나공원]]></category>
+      <category><![CDATA[로마]]></category>
+      <category><![CDATA[베니스]]></category>
+      <category><![CDATA[스페인광장]]></category>
+      <category><![CDATA[이탈리아]]></category>
+      <category><![CDATA[천사의성]]></category>
+      <category><![CDATA[타짜도르]]></category>
+      <category><![CDATA[테르미니]]></category>
+      <category><![CDATA[판테온]]></category>
+    </item>
+    <item>
+      <title><![CDATA[0. 슈퍼J들에게 끌려간 이탈리아]]></title>
+      <link>https://minyoung-yang.github.io/post/italy-start-2022</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/italy-start-2022</guid>
+      <pubDate>Tue, 08 Apr 2025 19:24:00 GMT</pubDate>
+      <description><![CDATA[2022년에 떠난 이탈리아 여행 회고. 인천에서 로마로.]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/GgPC0wD.jpeg" type="image/jpeg" />
+      <category><![CDATA[UAE]]></category>
+      <category><![CDATA[로마]]></category>
+      <category><![CDATA[로마테르미니]]></category>
+      <category><![CDATA[이탈리아]]></category>
+      <category><![CDATA[인천공항]]></category>
+    </item>
+    <item>
+      <title><![CDATA[0. 또 다시 도쿄 계획]]></title>
+      <link>https://minyoung-yang.github.io/post/tokyo-plan-2025</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/tokyo-plan-2025</guid>
+      <pubDate>Sat, 29 Mar 2025 23:59:00 GMT</pubDate>
+      <description><![CDATA[인생 네 번째 도쿄 여행 계획]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/efGn4HO.jpeg" type="image/jpeg" />
+      <category><![CDATA[나리타공항]]></category>
+      <category><![CDATA[도쿄]]></category>
+      <category><![CDATA[디즈니씨]]></category>
+      <category><![CDATA[여행계획]]></category>
+      <category><![CDATA[일본]]></category>
+    </item>
+    <item>
+      <title><![CDATA[8. 반셀프 이후 4개월, 느낀 것과 장단점들]]></title>
+      <link>https://minyoung-yang.github.io/post/semi-self-remodeling-review</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/semi-self-remodeling-review</guid>
+      <pubDate>Sat, 29 Mar 2025 17:16:00 GMT</pubDate>
+      <description><![CDATA[반셀프 인테리어 작업 이후 느낀 점과 장단점 정리]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/Onbws3p.jpeg" type="image/jpeg" />
+      <category><![CDATA[9mm문선]]></category>
+      <category><![CDATA[광교]]></category>
+      <category><![CDATA[로봇청소기장]]></category>
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[청소기장]]></category>
+      <category><![CDATA[휴젠뜨]]></category>
+    </item>
+    <item>
+      <title><![CDATA[DIPIN 디핀 수제 위스키 제조키트 사용기]]></title>
+      <link>https://minyoung-yang.github.io/post/dipin-whiskey-kit-review</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/dipin-whiskey-kit-review</guid>
+      <pubDate>Tue, 28 Jan 2025 22:15:00 GMT</pubDate>
+      <description><![CDATA[DIPIN 디핀 수제 위스키 제조키트 사용 후기]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/3wKuEPA.jpeg" type="image/jpeg" />
+      <category><![CDATA[디핀]]></category>
+      <category><![CDATA[바카디]]></category>
+      <category><![CDATA[위스키제조키트]]></category>
+      <category><![CDATA[홈브루위스키]]></category>
+    </item>
+    <item>
+      <title><![CDATA[7. 작지만 없어서는 안될 케라폭시, 탄성]]></title>
+      <link>https://minyoung-yang.github.io/post/kerapoxy-tan-seong</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/kerapoxy-tan-seong</guid>
+      <pubDate>Sun, 26 Jan 2025 17:41:00 GMT</pubDate>
+      <description><![CDATA[케라폭시 줄눈 시공과 탄성 작업]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/J1e6KJo.jpeg" type="image/jpeg" />
+      <category><![CDATA[김영복탄성]]></category>
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[줄눈유럽미장]]></category>
+      <category><![CDATA[케라폭시줄눈]]></category>
+      <category><![CDATA[탄성코트]]></category>
+    </item>
+    <item>
+      <title><![CDATA[6. 집에 딱 맞는 싱크대와 붙박이를 장착하다]]></title>
+      <link>https://minyoung-yang.github.io/post/kitchen-cabinet-remodeling</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/kitchen-cabinet-remodeling</guid>
+      <pubDate>Sun, 26 Jan 2025 00:50:00 GMT</pubDate>
+      <description><![CDATA[싱크대와 붙박이장 시공, 그리고 주방의 변신]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/BpNl7Y2.jpeg" type="image/jpeg" />
+      <category><![CDATA[마쟈싱크대]]></category>
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[붙박이]]></category>
+      <category><![CDATA[싱크대]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[주방]]></category>
+    </item>
+    <item>
+      <title><![CDATA[5. 집에 옷을 입히는 도배와 조명, 그리고 물난리]]></title>
+      <link>https://minyoung-yang.github.io/post/wall-light-remodeling</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/wall-light-remodeling</guid>
+      <pubDate>Fri, 24 Jan 2025 16:40:00 GMT</pubDate>
+      <description><![CDATA[도배 및 조명 시공, 스프링쿨러 물난리 뒷처리 과정]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/OMGLbHn.jpeg" type="image/jpeg" />
+      <category><![CDATA[도배]]></category>
+      <category><![CDATA[또봬요]]></category>
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[전기]]></category>
+      <category><![CDATA[조명]]></category>
+      <category><![CDATA[지블필름]]></category>
+    </item>
+    <item>
+      <title><![CDATA[4. 필름으로 생기를 더하다]]></title>
+      <link>https://minyoung-yang.github.io/post/film-remodeling</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/film-remodeling</guid>
+      <pubDate>Wed, 22 Jan 2025 21:18:00 GMT</pubDate>
+      <description><![CDATA[필름 시공]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/h5L55Kf.jpeg" type="image/jpeg" />
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[지블]]></category>
+      <category><![CDATA[필름]]></category>
+    </item>
+    <item>
+      <title><![CDATA[3. 욕실의 처음부터 끝까지 (feat. 주방 타일 시공)]]></title>
+      <link>https://minyoung-yang.github.io/post/bathroom-tile-remodeling</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/bathroom-tile-remodeling</guid>
+      <pubDate>Tue, 21 Jan 2025 22:21:00 GMT</pubDate>
+      <description><![CDATA[욕실과 주방 타일 시공]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/UZGvJIZ.jpeg" type="image/jpeg" />
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[욕실]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[주방]]></category>
+      <category><![CDATA[코알라타일]]></category>
+      <category><![CDATA[타일]]></category>
+    </item>
+    <item>
+      <title><![CDATA[2. 집의 뼈대를 구성하는 목공 작업 (feat. 시스템 에어컨, 가스배관, 방수)]]></title>
+      <link>https://minyoung-yang.github.io/post/carpentry-for-remodelling</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/carpentry-for-remodelling</guid>
+      <pubDate>Mon, 20 Jan 2025 22:30:00 GMT</pubDate>
+      <description><![CDATA[목공 작업과 시스템 에어컨, 가스 배관 철거, 방수 작업]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/b7YaxkI.jpeg" type="image/jpeg" />
+      <category><![CDATA[가스배관철거]]></category>
+      <category><![CDATA[목공]]></category>
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[방수]]></category>
+      <category><![CDATA[수원유목수]]></category>
+      <category><![CDATA[시스템에어컨]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[코알라타일]]></category>
+    </item>
+    <item>
+      <title><![CDATA[1. 새 집을 위해 헌 집을 부수는 철거]]></title>
+      <link>https://minyoung-yang.github.io/post/demolition-for-remodelling</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/demolition-for-remodelling</guid>
+      <pubDate>Sun, 19 Jan 2025 16:38:00 GMT</pubDate>
+      <description><![CDATA[리모델링을 위한 철거 작업]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/os70sF6.jpeg" type="image/jpeg" />
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[철거]]></category>
+      <category><![CDATA[코알라타일]]></category>
+      <category><![CDATA[타일]]></category>
+    </item>
+    <item>
+      <title><![CDATA[0. 나의 집 꾸미기 시작]]></title>
+      <link>https://minyoung-yang.github.io/post/interior-remodel-preview</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/interior-remodel-preview</guid>
+      <pubDate>Sun, 19 Jan 2025 01:06:00 GMT</pubDate>
+      <description><![CDATA[리모델링 계획과 시작. 동의서, 보양을 제일 먼저]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/aaCfR98.jpeg" type="image/jpeg" />
+      <category><![CDATA[광교]]></category>
+      <category><![CDATA[동의서]]></category>
+      <category><![CDATA[반셀프인테리어]]></category>
+      <category><![CDATA[보양]]></category>
+      <category><![CDATA[인테리어]]></category>
+      <category><![CDATA[인테리어계획]]></category>
+    </item>
+    <item>
+      <title><![CDATA[10. 미국 서부 7박 8일 여행 리뷰]]></title>
+      <link>https://minyoung-yang.github.io/post/america-review</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/america-review</guid>
+      <pubDate>Fri, 27 Sep 2024 18:28:00 GMT</pubDate>
+      <description><![CDATA[7박 8일 간의 미국 서부 여행에 대한 리뷰]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/LgmbOnv.jpeg" type="image/jpeg" />
+      <category><![CDATA[7박8일미국서부여행]]></category>
+      <category><![CDATA[로스앤젤레스]]></category>
+      <category><![CDATA[미국]]></category>
+      <category><![CDATA[미국서부]]></category>
+      <category><![CDATA[샌프란시스코]]></category>
+      <category><![CDATA[요세미티]]></category>
+      <category><![CDATA[조슈아트리]]></category>
+      <category><![CDATA[캘리포니아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[9. 꿈 같았던 미국]]></title>
+      <link>https://minyoung-yang.github.io/post/last-day-america</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/last-day-america</guid>
+      <pubDate>Tue, 24 Sep 2024 23:53:00 GMT</pubDate>
+      <description><![CDATA[미국 서부 여행 8일차 (마지막), 쇼핑 데이]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/qwWuDFn.jpeg" type="image/jpeg" />
+      <category><![CDATA[미국]]></category>
+      <category><![CDATA[미국서부]]></category>
+      <category><![CDATA[샌프란시스코]]></category>
+      <category><![CDATA[샌프란시스코공항]]></category>
+      <category><![CDATA[샌프란시스코아울렛]]></category>
+      <category><![CDATA[월마트]]></category>
+    </item>
+    <item>
+      <title><![CDATA[8. 요세미티 국립공원 찍고 오기]]></title>
+      <link>https://minyoung-yang.github.io/post/yosemite-national-park-tour</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/yosemite-national-park-tour</guid>
+      <pubDate>Sat, 21 Sep 2024 14:12:00 GMT</pubDate>
+      <description><![CDATA[미국 서부 여행 7일차, 요세미티 국립공원 당일치기 투어]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/Eexrhbt.jpeg" type="image/jpeg" />
+      <category><![CDATA[미국]]></category>
+      <category><![CDATA[샌프란시스코]]></category>
+      <category><![CDATA[서부]]></category>
+      <category><![CDATA[요세미티]]></category>
+    </item>
+    <item>
+      <title><![CDATA[7. 꿈에 그리던 샌프란시스코 한바퀴]]></title>
+      <link>https://minyoung-yang.github.io/post/san-francisco-tour</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/san-francisco-tour</guid>
+      <pubDate>Fri, 13 Sep 2024 00:16:00 GMT</pubDate>
+      <description><![CDATA[미국 서부 여행 6일차, 샌프란시스코 자전거 투어]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/cy0R5F7.jpeg" type="image/jpeg" />
+      <category><![CDATA[금문교]]></category>
+      <category><![CDATA[기라델리]]></category>
+      <category><![CDATA[롬바드길]]></category>
+      <category><![CDATA[샌프란시스코]]></category>
+      <category><![CDATA[소살리토]]></category>
+      <category><![CDATA[페리]]></category>
+      <category><![CDATA[피어39]]></category>
+      <category><![CDATA[햄버거]]></category>
+    </item>
+    <item>
+      <title><![CDATA[6. 샌프란시스코까지 1번국도로]]></title>
+      <link>https://minyoung-yang.github.io/post/pebble-beach-to-san-francisco</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/pebble-beach-to-san-francisco</guid>
+      <pubDate>Sun, 08 Sep 2024 23:52:00 GMT</pubDate>
+      <description><![CDATA[미국 서부 여행 5일차, 샌프란시스코까지 1번국도로 이동]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/PaKskvM.jpeg" type="image/jpeg" />
+      <category><![CDATA[17마일드라이브]]></category>
+      <category><![CDATA[1번국도]]></category>
+      <category><![CDATA[랜즈엔드룩아웃]]></category>
+      <category><![CDATA[베티버거]]></category>
+      <category><![CDATA[산타크루즈]]></category>
+      <category><![CDATA[샌프란시스코]]></category>
+      <category><![CDATA[파타고니아아울렛]]></category>
+      <category><![CDATA[페블비치]]></category>
+    </item>
+    <item>
+      <title><![CDATA[5. 카멀바이더시까지 1번국도로]]></title>
+      <link>https://minyoung-yang.github.io/post/carmel-by-the-sea</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/carmel-by-the-sea</guid>
+      <pubDate>Sun, 08 Sep 2024 13:48:00 GMT</pubDate>
+      <description><![CDATA[미국 서부 여행 4일차, 카멀바이더시까지 1번국도로 이동]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/4cVLbCK.jpeg" type="image/jpeg" />
+      <category><![CDATA[1번국도]]></category>
+      <category><![CDATA[래기드포인트]]></category>
+      <category><![CDATA[맥웨이폭포]]></category>
+      <category><![CDATA[모로베이]]></category>
+      <category><![CDATA[미국서부]]></category>
+      <category><![CDATA[빅서]]></category>
+      <category><![CDATA[빅스비브릿지]]></category>
+      <category><![CDATA[솔방]]></category>
+      <category><![CDATA[카멀바이더시]]></category>
+      <category><![CDATA[캘리포니아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[4. 샌 하신토 산과 LA의 명소]]></title>
+      <link>https://minyoung-yang.github.io/post/san-jacinto-mountains-la</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/san-jacinto-mountains-la</guid>
+      <pubDate>Sat, 07 Sep 2024 15:29:00 GMT</pubDate>
+      <description><![CDATA[미국 서부 여행 3일차, 샌 하신토 산과 LA의 명소 탐방]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/jNKAuCy.jpeg" type="image/jpeg" />
+      <category><![CDATA[LA]]></category>
+      <category><![CDATA[더오리지널파머스마켓]]></category>
+      <category><![CDATA[로스앤젤레스]]></category>
+      <category><![CDATA[말리부]]></category>
+      <category><![CDATA[맥도날드]]></category>
+      <category><![CDATA[산타바바라]]></category>
+      <category><![CDATA[샌하신토]]></category>
+      <category><![CDATA[케이블카]]></category>
+      <category><![CDATA[팜스프링스]]></category>
+      <category><![CDATA[팜파스그릴]]></category>
+    </item>
+    <item>
+      <title><![CDATA[3. 팜스프링스와 조슈아트리 국립공원]]></title>
+      <link>https://minyoung-yang.github.io/post/palm-springs-joshua-tree</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/palm-springs-joshua-tree</guid>
+      <pubDate>Thu, 05 Sep 2024 23:34:00 GMT</pubDate>
+      <description><![CDATA[미국 서부 여행 2일차, 팜스프링스와 조슈아트리 국립공원 탐방]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/wuFA1b8.jpeg" type="image/jpeg" />
+      <category><![CDATA[조슈아트리]]></category>
+      <category><![CDATA[조슈아트리국립공원]]></category>
+      <category><![CDATA[커피]]></category>
+      <category><![CDATA[파이브가이즈]]></category>
+      <category><![CDATA[팜스프링스]]></category>
+      <category><![CDATA[피자]]></category>
+    </item>
+    <item>
+      <title><![CDATA[2. 한국에서 로스앤젤레스로]]></title>
+      <link>https://minyoung-yang.github.io/post/korea-to-los-angeles</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/korea-to-los-angeles</guid>
+      <pubDate>Thu, 05 Sep 2024 00:45:00 GMT</pubDate>
+      <description><![CDATA[미국 서부 여행 1일차, 한국에서 로스앤젤레스까지의 여정]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/yxpyTsk.jpeg" type="image/jpeg" />
+      <category><![CDATA[그리피스천문대]]></category>
+      <category><![CDATA[로스앤젤레스]]></category>
+      <category><![CDATA[미국서부]]></category>
+      <category><![CDATA[산타모니카]]></category>
+      <category><![CDATA[애벗키니]]></category>
+      <category><![CDATA[인앤아웃]]></category>
+      <category><![CDATA[캘리포니아]]></category>
+    </item>
+    <item>
+      <title><![CDATA[1. 캘리포니아 그리기]]></title>
+      <link>https://minyoung-yang.github.io/post/planning-california</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/planning-california</guid>
+      <pubDate>Wed, 04 Sep 2024 23:28:00 GMT</pubDate>
+      <description><![CDATA[캘리포니아 여행 계획과 가벼운 요약]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/j6drk91.jpeg" type="image/jpeg" />
+      <category><![CDATA[1번국도]]></category>
+      <category><![CDATA[그리피스천문대]]></category>
+      <category><![CDATA[로스앤젤레스]]></category>
+      <category><![CDATA[미국]]></category>
+      <category><![CDATA[샌프란시스코]]></category>
+      <category><![CDATA[소살리토]]></category>
+      <category><![CDATA[요세미티국립공원]]></category>
+      <category><![CDATA[조슈아트리국립공원]]></category>
+      <category><![CDATA[캘리포니아]]></category>
+      <category><![CDATA[팜스프링스]]></category>
+    </item>
+    <item>
+      <title><![CDATA[0. 미국을 동경하다]]></title>
+      <link>https://minyoung-yang.github.io/post/america-dream</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/america-dream</guid>
+      <pubDate>Tue, 03 Sep 2024 21:47:00 GMT</pubDate>
+      <description><![CDATA[캘리포니아에 방문했던 기억과 그리움에 대한 이야기]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/wmS5D9f.jpeg" type="image/jpeg" />
+      <category><![CDATA[금문교]]></category>
+      <category><![CDATA[롬바드길]]></category>
+      <category><![CDATA[미국]]></category>
+      <category><![CDATA[미국서부]]></category>
+      <category><![CDATA[샌프란시스코]]></category>
+    </item>
+    <item>
+      <title><![CDATA[5. 아울렛이 포함된 귀국 코스]]></title>
+      <link>https://minyoung-yang.github.io/post/rinku-outlet-review</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/rinku-outlet-review</guid>
+      <pubDate>Mon, 02 Sep 2024 01:28:00 GMT</pubDate>
+      <description><![CDATA[간사이 마지막 날 (5일차), 린쿠 프리미엄 아울렛 및 귀국]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/dter0OG.jpeg" type="image/jpeg" />
+      <category><![CDATA[간사이]]></category>
+      <category><![CDATA[린쿠]]></category>
+      <category><![CDATA[린쿠타운]]></category>
+      <category><![CDATA[린쿠프리미엄아울렛]]></category>
+      <category><![CDATA[에어서울]]></category>
+      <category><![CDATA[오사카]]></category>
+      <category><![CDATA[일본]]></category>
+    </item>
+    <item>
+      <title><![CDATA[4. 역사, 자연, 도시 모두 느껴지는 교토]]></title>
+      <link>https://minyoung-yang.github.io/post/kyoto-review</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/kyoto-review</guid>
+      <pubDate>Sun, 01 Sep 2024 00:48:00 GMT</pubDate>
+      <description><![CDATA[간사이 4일차, 교토 방문 및 스냅사진 촬영]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/cGqU6Zx.jpeg" type="image/jpeg" />
+      <category><![CDATA[교토]]></category>
+      <category><![CDATA[규카츠]]></category>
+      <category><![CDATA[기요미즈데라]]></category>
+      <category><![CDATA[오사카]]></category>
+      <category><![CDATA[인왕문]]></category>
+      <category><![CDATA[일본]]></category>
+      <category><![CDATA[장어덮밥]]></category>
+      <category><![CDATA[청수사]]></category>
+      <category><![CDATA[청어소바]]></category>
+      <category><![CDATA[타코야끼]]></category>
+    </item>
+    <item>
+      <title><![CDATA[3. 일본 속의 자연, 자연 속의 일본, 나라]]></title>
+      <link>https://minyoung-yang.github.io/post/nara-review</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/nara-review</guid>
+      <pubDate>Fri, 30 Aug 2024 17:54:00 GMT</pubDate>
+      <description><![CDATA[간사이 3일차, 나라 및 덴덴타운 방문기]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/weWs8BK.jpeg" type="image/jpeg" />
+      <category><![CDATA[기타스시]]></category>
+      <category><![CDATA[나라]]></category>
+      <category><![CDATA[나라 공원]]></category>
+      <category><![CDATA[덴덴타운]]></category>
+      <category><![CDATA[사슴]]></category>
+      <category><![CDATA[사슴 공원]]></category>
+      <category><![CDATA[오사카]]></category>
+      <category><![CDATA[오치이도]]></category>
+      <category><![CDATA[우동]]></category>
+      <category><![CDATA[일본]]></category>
+    </item>
+    <item>
+      <title><![CDATA[2. 작지만 가득했던 USJ]]></title>
+      <link>https://minyoung-yang.github.io/post/usj-review</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/usj-review</guid>
+      <pubDate>Wed, 28 Aug 2024 01:19:00 GMT</pubDate>
+      <description><![CDATA[간사이 2일차, 유니버설 스튜디오 재팬 방문기]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/0992GTW.jpeg" type="image/jpeg" />
+      <category><![CDATA[USJ]]></category>
+      <category><![CDATA[닌텐도]]></category>
+      <category><![CDATA[라멘]]></category>
+      <category><![CDATA[오사카]]></category>
+      <category><![CDATA[유니버셜스튜디오]]></category>
+      <category><![CDATA[해리포터]]></category>
+      <category><![CDATA[호그와트]]></category>
+      <category><![CDATA[일본]]></category>
+      <category><![CDATA[간사이]]></category>
+    </item>
+    <item>
+      <title><![CDATA[4. 후지산에 가고자하는 사람들에게]]></title>
+      <link>https://minyoung-yang.github.io/post/fuji-tips</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/fuji-tips</guid>
+      <pubDate>Mon, 26 Aug 2024 01:36:00 GMT</pubDate>
+      <description><![CDATA[후지산을 다녀온 후기, 팁 그리고 충고]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/pxh3A03.jpeg" type="image/jpeg" />
+      <category><![CDATA[시즈오카]]></category>
+      <category><![CDATA[일본]]></category>
+      <category><![CDATA[후지산]]></category>
+      <category><![CDATA[후지노미야]]></category>
+      <category><![CDATA[시즈오카공항]]></category>
+    </item>
+    <item>
+      <title><![CDATA[3. 후지산을 뒤로 하고 시즈오카 쇼핑]]></title>
+      <link>https://minyoung-yang.github.io/post/shizuoka-shopping</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/shizuoka-shopping</guid>
+      <pubDate>Tue, 20 Aug 2024 00:48:00 GMT</pubDate>
+      <description><![CDATA[후지산 3일차, 시즈오카에서의 쇼핑과 식사]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/V1Ll3ZS.jpeg" type="image/jpeg" />
+      <category><![CDATA[시즈오카]]></category>
+      <category><![CDATA[일본]]></category>
+      <category><![CDATA[후지산]]></category>
+      <category><![CDATA[후지노미야]]></category>
+      <category><![CDATA[시즈오카공항]]></category>
+    </item>
+    <item>
+      <title><![CDATA[2. 구름 위에 잠시 다녀오다]]></title>
+      <link>https://minyoung-yang.github.io/post/from-fujinomiya-to-mount-fuji</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/from-fujinomiya-to-mount-fuji</guid>
+      <pubDate>Thu, 15 Aug 2024 19:48:00 GMT</pubDate>
+      <description><![CDATA[후지산 2일차, 후지산 등반과 구름 위의 경험]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/Kcv1hLt.jpeg" type="image/jpeg" />
+      <category><![CDATA[시즈오카]]></category>
+      <category><![CDATA[우동]]></category>
+      <category><![CDATA[일본]]></category>
+      <category><![CDATA[후지노미야]]></category>
+      <category><![CDATA[후지산]]></category>
+    </item>
+    <item>
+      <title><![CDATA[1. 후지산에 가기 직전까지 (시즈오카 후지노미야 숙소까지)]]></title>
+      <link>https://minyoung-yang.github.io/post/from-incehon-to-fujinomiya</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/from-incehon-to-fujinomiya</guid>
+      <pubDate>Wed, 14 Aug 2024 23:41:00 GMT</pubDate>
+      <description><![CDATA[후지산 1일차, 인천에서 후지노미야까지]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/xUI6TeH.jpeg" type="image/jpeg" />
+      <category><![CDATA[시즈오카]]></category>
+      <category><![CDATA[제주항공]]></category>
+      <category><![CDATA[후지노미야]]></category>
+      <category><![CDATA[후지산]]></category>
+    </item>
+    <item>
+      <title><![CDATA[1. 설레는 출국과 오사카에 첫 발자국]]></title>
+      <link>https://minyoung-yang.github.io/post/osaka-first-step</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/osaka-first-step</guid>
+      <pubDate>Sun, 11 Aug 2024 00:17:00 GMT</pubDate>
+      <description><![CDATA[간사이 1일차, 오사카 도착과 헵파이브 관람차]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/WimRMno.jpeg" type="image/jpeg" />
+      <category><![CDATA[간사이]]></category>
+      <category><![CDATA[닌텐도]]></category>
+      <category><![CDATA[다이마루]]></category>
+      <category><![CDATA[세븐틴]]></category>
+      <category><![CDATA[오사카]]></category>
+      <category><![CDATA[우메다]]></category>
+      <category><![CDATA[원피스]]></category>
+      <category><![CDATA[포켓몬]]></category>
+      <category><![CDATA[헵파이브]]></category>
+    </item>
+    <item>
+      <title><![CDATA[0. 왜 사람들은 오사카에 많이 갈까]]></title>
+      <link>https://minyoung-yang.github.io/post/why-people-go-to-osaka</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/why-people-go-to-osaka</guid>
+      <pubDate>Thu, 08 Aug 2024 00:40:00 GMT</pubDate>
+      <description><![CDATA[일본 간사이 지방 여행 계획]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/6maecnz.jpeg" type="image/jpeg" />
+      <category><![CDATA[일본]]></category>
+      <category><![CDATA[간사이]]></category>
+      <category><![CDATA[오사카]]></category>
+      <category><![CDATA[교토]]></category>
+      <category><![CDATA[나라]]></category>
+      <category><![CDATA[여행]]></category>
+    </item>
+    <item>
+      <title><![CDATA[0. 후지산 등산 계획]]></title>
+      <link>https://minyoung-yang.github.io/post/fuji-mountain-hiking-plan</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/fuji-mountain-hiking-plan</guid>
+      <pubDate>Wed, 07 Aug 2024 01:28:00 GMT</pubDate>
+      <description><![CDATA[아버지와 후지산 등산 계획]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/2QmGwgU.jpeg" type="image/jpeg" />
+      <category><![CDATA[후지산]]></category>
+      <category><![CDATA[후지노미야]]></category>
+      <category><![CDATA[시즈오카]]></category>
+      <category><![CDATA[등산]]></category>
+      <category><![CDATA[여행]]></category>
+    </item>
+  </channel>
+</rss>
