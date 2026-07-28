@@ -5,7 +5,7 @@ import { ArrowRight, TrendingUp } from "lucide-react";
 import Link from "next/link";
 
 function Home() {
-  const latestPosts = getLatestPosts(9);
+  const latestPosts = getLatestPosts(3);
   return (
     <Layout>
       <div className="space-y-12">
