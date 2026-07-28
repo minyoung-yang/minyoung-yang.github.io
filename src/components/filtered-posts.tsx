@@ -34,14 +34,17 @@ export function FilteredPosts({ canSearch, maxPosts }: FilteredPostsProps) {
 
   useEffect(() => {
     const params = new URLSearchParams();
-    params.set(QUERY_STRINGS.CATEGORY, selectedCategory);
+    if (selectedCategory !== "all") {
+      params.set(QUERY_STRINGS.CATEGORY, selectedCategory);
+    }
     if (selectedSubCategory) {
       params.set(QUERY_STRINGS.SUB_CATEGORY, selectedSubCategory);
     }
     if (searchTerm && searchTerm.trim() !== "") {
       params.set(QUERY_STRINGS.SEARCH, searchTerm);
     }
-    router.push(`?${params.toString()}`);
+    const query = params.toString();
+    router.push(query ? `?${query}` : window.location.pathname);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedCategory, selectedSubCategory, searchTerm]);
 
