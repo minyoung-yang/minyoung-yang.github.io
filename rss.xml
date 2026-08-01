@@ -5,8 +5,21 @@
     <link>https://minyoung-yang.github.io</link>
     <description>Blog feed</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 31 Jul 2026 16:05:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 16:09:51 GMT</lastBuildDate>
     
+    <item>
+      <title><![CDATA[7. 캐나다 여행의 마지막 일정을 밴쿠버에서]]></title>
+      <link>https://minyoung-yang.github.io/post/last-day-in-vancouver</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/last-day-in-vancouver</guid>
+      <pubDate>Sun, 02 Aug 2026 01:07:00 GMT</pubDate>
+      <description><![CDATA[밴쿠버에서의 2박 3일]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/ri0nNQ7.png" type="image/jpeg" />
+      <category><![CDATA[캐나다]]></category>
+      <category><![CDATA[밴쿠버]]></category>
+      <category><![CDATA[스탠리공원]]></category>
+      <category><![CDATA[워터프론트]]></category>
+    </item>
     <item>
       <title><![CDATA[6. 비오는 밴쿠버 아일랜드]]></title>
       <link>https://minyoung-yang.github.io/post/rainy-vancouver-island</link>
@@ -35,20 +48,6 @@
       <category><![CDATA[캠핑]]></category>
       <category><![CDATA[철새 도래지]]></category>
       <category><![CDATA[폭포]]></category>
-    </item>
-    <item>
-      <title><![CDATA[10. 3년이 지난 시점에서 이탈리아를 기억하면]]></title>
-      <link>https://minyoung-yang.github.io/post/italy-after-3-years</link>
-      <guid isPermaLink="true">https://minyoung-yang.github.io/post/italy-after-3-years</guid>
-      <pubDate>Thu, 07 Aug 2025 23:46:00 GMT</pubDate>
-      <description><![CDATA[3년이 지난 시점에서 이탈리아를 기억하다.]]></description>
-      <author><![CDATA[양가브리엘]]></author>
-      <enclosure url="https://i.imgur.com/s35vear.png" type="image/jpeg" />
-      <category><![CDATA[이탈리아]]></category>
-      <category><![CDATA[밀라노]]></category>
-      <category><![CDATA[로마]]></category>
-      <category><![CDATA[알프스]]></category>
-      <category><![CDATA[돌로미티]]></category>
     </item>
     <item>
       <title><![CDATA[4. 휘슬러 정상에서 바라본 재스퍼]]></title>
@@ -183,6 +182,20 @@
       <category><![CDATA[도쿄]]></category>
       <category><![CDATA[아키하바라]]></category>
       <category><![CDATA[나리타공항]]></category>
+    </item>
+    <item>
+      <title><![CDATA[10. 3년이 지난 시점에서 이탈리아를 기억하면]]></title>
+      <link>https://minyoung-yang.github.io/post/italy-after-3-years</link>
+      <guid isPermaLink="true">https://minyoung-yang.github.io/post/italy-after-3-years</guid>
+      <pubDate>Thu, 07 Aug 2025 23:46:00 GMT</pubDate>
+      <description><![CDATA[3년이 지난 시점에서 이탈리아를 기억하다.]]></description>
+      <author><![CDATA[양가브리엘]]></author>
+      <enclosure url="https://i.imgur.com/s35vear.png" type="image/jpeg" />
+      <category><![CDATA[이탈리아]]></category>
+      <category><![CDATA[밀라노]]></category>
+      <category><![CDATA[로마]]></category>
+      <category><![CDATA[알프스]]></category>
+      <category><![CDATA[돌로미티]]></category>
     </item>
     <item>
       <title><![CDATA[9. 이탈리아의 마지막 밤을 밀라노에서]]></title>
