@@ -11,6 +11,7 @@ import Link from "next/link";
 import { EntryContent } from "@/components/entry-detail/entry-content";
 import { useRouter } from "next/navigation";
 import { CategoryLabel } from "@/components/category-label";
+import { AdfitWide } from "@/components/ads/adfit/wide";
 
 type PostDetailProps = {
   content?: PostContent;
@@ -92,6 +93,10 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
           <div className="text-gray-700 leading-loose whitespace-pre-line [&>*]:mb-6">
             <EntryContent content={content} />
           </div>
+        </div>
+
+        <div className="mb-12 flex justify-center">
+          <AdfitWide />
         </div>
 
         <div className="flex items-center gap-2 mb-12 flex-wrap">
