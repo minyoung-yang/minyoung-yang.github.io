@@ -42,6 +42,17 @@ export function ImageViewer({
     onIndexChange(newIndex);
   };
 
+  useEffect(() => {
+    if (!isOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft" || e.key === "ArrowUp") handlePrevious();
+      else if (e.key === "ArrowRight" || e.key === "ArrowDown") handleNext();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isOpen, selectedIndex, images.length]);
+
   const handleThumbnailClick = (index: number) => {
     setSelectedIndex(index);
     onIndexChange(index);
