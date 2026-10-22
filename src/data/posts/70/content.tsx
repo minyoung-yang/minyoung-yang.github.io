@@ -2,6 +2,7 @@
 
 import { ImageInEntry } from "@/components/entry-detail/image-in-entry";
 import { OgLink } from "@/components/entry-detail/og-anchor";
+import { YoutubeVideo } from "@/components/entry-detail/youtube-video";
 
 export const content = (
   <>
@@ -241,6 +242,7 @@ export const content = (
       alt="피자와 맥주"
       caption="맛이 좋았던 맥주와 피자"
     />
+    <YoutubeVideo videoId="kzYUrnv9f9A" caption="탄산이 기가 막히는 맥주" />
     <p>
       다시 숙소로 돌아와 맥주 한 캔 마시며 영수증 정리를 하고 잠에 들었다.
       준비와 이동이 주가 된 1, 2일차였지만, 그래도 볼것과 의미가 가득했던
