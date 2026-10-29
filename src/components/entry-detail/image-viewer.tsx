@@ -111,7 +111,7 @@ export function ImageViewer({
                   onClick={() => handleThumbnailClick(index)}
                   className={`flex-shrink-0 w-12 h-12 sm:w-16 sm:h-16 rounded-lg overflow-hidden border-2 transition-all cursor-pointer ${
                     index === selectedIndex
-                      ? "border-blue-400 scale-110"
+                      ? "border-blue-400"
                       : "border-white/30 hover:border-white/60"
                   }`}
                 >
