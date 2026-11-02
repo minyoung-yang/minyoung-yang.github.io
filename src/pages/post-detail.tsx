@@ -1,7 +1,15 @@
 "use client";
 import { Layout } from "../components/layout";
 import { getCategoryBySubCategory } from "../data/utils";
-import { ArrowLeft, Clock, User, Calendar, Tag } from "lucide-react";
+import {
+  ArrowLeft,
+  ChevronLeft,
+  ChevronRight,
+  Clock,
+  User,
+  Calendar,
+  Tag,
+} from "lucide-react";
 import { useMemo } from "react";
 import { blogPosts } from "@/data/posts";
 import { UtterancesComments } from "@/components/entry-detail/comment";
@@ -46,6 +54,13 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
       (p) => p.subCategoryId === postMeta.subCategoryId && p.id !== postMeta.id,
     )
     .slice(0, 3);
+
+  const currentIndex = blogPosts.findIndex((post) => post.id === postMeta.id);
+  const nextPost = currentIndex > 0 ? blogPosts[currentIndex - 1] : undefined;
+  const prevPost =
+    currentIndex >= 0 && currentIndex < blogPosts.length - 1
+      ? blogPosts[currentIndex + 1]
+      : undefined;
 
   return (
     <Layout>
@@ -113,32 +128,75 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
 
         <UtterancesComments slug={postMeta.slug} />
 
-        {relatedPosts.length > 0 && (
+        {(prevPost || nextPost || relatedPosts.length > 0) && (
           <section className="border-t pt-12">
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">관련 글</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              {relatedPosts.map((relatedPost) => (
-                <Link
-                  key={relatedPost.id}
-                  href={`/post/${relatedPost.slug}`}
-                  className="group"
-                >
-                  <div className="aspect-[4/3] overflow-hidden rounded-lg mb-3">
-                    <img
-                      src={relatedPost.imageUrl}
-                      alt={relatedPost.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
-                  </div>
-                  <h3 className="font-semibold text-gray-900 group-hover:text-green-800 transition-colors duration-200 line-clamp-1">
-                    {relatedPost.title}
-                  </h3>
-                  <p className="text-sm text-gray-600 mt-1 line-clamp-2">
-                    {relatedPost.summary}
-                  </p>
-                </Link>
-              ))}
-            </div>
+            {(prevPost || nextPost) && (
+              <nav
+                aria-label="이전 글, 다음 글"
+                className="mb-12 grid grid-cols-1 gap-4 sm:grid-cols-2"
+              >
+                {prevPost ? (
+                  <Link
+                    href={`/post/${prevPost.slug}`}
+                    className="group rounded-lg border p-4 hover:border-green-800 transition-colors"
+                  >
+                    <span className="inline-flex items-center text-sm text-gray-500">
+                      <ChevronLeft className="mr-1 h-4 w-4" />
+                      이전 글
+                    </span>
+                    <span className="mt-1 block font-semibold text-gray-900 group-hover:text-green-800 line-clamp-2">
+                      {prevPost.title}
+                    </span>
+                  </Link>
+                ) : (
+                  <div className="hidden sm:block" />
+                )}
+                {nextPost ? (
+                  <Link
+                    href={`/post/${nextPost.slug}`}
+                    className="group flex flex-col rounded-lg border p-4 hover:border-green-800 transition-colors sm:col-start-2 sm:items-end sm:text-right"
+                  >
+                    <span className="inline-flex items-center text-sm text-gray-500">
+                      다음 글
+                      <ChevronRight className="ml-1 h-4 w-4" />
+                    </span>
+                    <span className="mt-1 block font-semibold text-gray-900 group-hover:text-green-800 line-clamp-2">
+                      {nextPost.title}
+                    </span>
+                  </Link>
+                ) : null}
+              </nav>
+            )}
+            {relatedPosts.length > 0 && (
+              <>
+                <h2 className="text-2xl font-bold text-gray-900 mb-8">
+                  관련 글
+                </h2>
+                <div className="grid md:grid-cols-3 gap-6">
+                  {relatedPosts.map((relatedPost) => (
+                    <Link
+                      key={relatedPost.id}
+                      href={`/post/${relatedPost.slug}`}
+                      className="group"
+                    >
+                      <div className="aspect-[4/3] overflow-hidden rounded-lg mb-3">
+                        <img
+                          src={relatedPost.imageUrl}
+                          alt={relatedPost.title}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                        />
+                      </div>
+                      <h3 className="font-semibold text-gray-900 group-hover:text-green-800 transition-colors duration-200 line-clamp-1">
+                        {relatedPost.title}
+                      </h3>
+                      <p className="text-sm text-gray-600 mt-1 line-clamp-2">
+                        {relatedPost.summary}
+                      </p>
+                    </Link>
+                  ))}
+                </div>
+              </>
+            )}
           </section>
         )}
       </article>
