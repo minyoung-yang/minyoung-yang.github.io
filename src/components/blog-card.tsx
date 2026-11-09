@@ -10,7 +10,7 @@ type BlogCardProps = {
 const BlogCard = ({ post }: BlogCardProps) => {
   return (
     <article className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-      <Link href={`/post/${post.slug}`}>
+      <Link href={`/posts/${post.slug}`}>
         <div className="aspect-[4/3] overflow-hidden">
           <img
             src={post.imageUrl}
@@ -23,7 +23,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
         <div className="flex items-center gap-2 mb-3">
           <CategoryLabel subCategoryId={post.subCategoryId} />
         </div>
-        <Link href={`/post/${post.slug}`}>
+        <Link href={`/posts/${post.slug}`}>
           <h3 className="text-xl font-bold text-gray-900 mb-3 line-clamp-2 hover:text-green-800 transition-colors duration-200">
             {post.title}
           </h3>

@@ -137,7 +137,7 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
               >
                 {prevPost ? (
                   <Link
-                    href={`/post/${prevPost.slug}`}
+                    href={`/posts/${prevPost.slug}`}
                     className="group rounded-lg border p-4 hover:border-green-800 transition-colors"
                   >
                     <span className="inline-flex items-center text-sm text-gray-500">
@@ -153,7 +153,7 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
                 )}
                 {nextPost ? (
                   <Link
-                    href={`/post/${nextPost.slug}`}
+                    href={`/posts/${nextPost.slug}`}
                     className="group flex flex-col rounded-lg border p-4 hover:border-green-800 transition-colors sm:col-start-2 sm:items-end sm:text-right"
                   >
                     <span className="inline-flex items-center text-sm text-gray-500">
@@ -176,7 +176,7 @@ const PostDetail = ({ content, postMeta }: PostDetailProps) => {
                   {relatedPosts.map((relatedPost) => (
                     <Link
                       key={relatedPost.id}
-                      href={`/post/${relatedPost.slug}`}
+                      href={`/posts/${relatedPost.slug}`}
                       className="group"
                     >
                       <div className="aspect-[4/3] overflow-hidden rounded-lg mb-3">
